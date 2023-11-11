@@ -1,3 +1,5 @@
 .idea/
 models/
 runs/
+data/musicnet.tar.gz
+data/nsynth-*

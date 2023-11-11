@@ -61,7 +61,7 @@ class WavenetVAE(AutoEncoder):
     def loss_function(model: nn.Module, x: torch.Tensor, y: torch.Tensor,
                       device: str) -> Tuple[torch.Tensor, torch.Tensor]:
         logits, x_q, x_q_log_prob = model(x)
-
+        
         ce_x = F.cross_entropy(logits, y.to(device))
 
         zx_p_loc = torch.zeros(x_q.size()).to(device)

@@ -9,10 +9,13 @@ def main(args):
     model_class = WavenetVAE if args.vae else WavenetAE
 
     model = make_model(args)
+    print('make model is done.')
 
     # Build datasets
     loaders = make_loaders(args.datadir, ['train', 'test'], args.nbatch,
                            args.crop_length, args.families, args.sources)
+    print('make loaders is done.')
+    print('train start!')
     train(model=model,
           loss_function=model_class.loss_function,
           gpu=args.gpu,

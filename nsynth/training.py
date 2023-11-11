@@ -10,6 +10,11 @@ from torch import optim
 from torch.optim.optimizer import Optimizer
 from torch.utils import data
 
+import sys
+sys.path.append(os.getcwd())
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+print(sys.path)
+
 from .modules import AutoEncoder
 from .scheduler import ManualMultiStepLR
 from .visualization import ConfusionMatrix, log, MonkeyWriter
@@ -62,13 +67,14 @@ def train(model: AutoEncoder, loss_function: Callable, gpu: List[int],
     device = f'cuda:{gpu[0]}' if gpu else 'cpu'
     if gpu:
         model = nn.DataParallel(model.to(device), device_ids=gpu)
-
+    print('\nUsing device:', device)
     # Setup optimizer and learning rate scheduler
     optimizer = optim.Adam(model.parameters(), eps=1e-8, lr=1e-3)
     scheduler = _setup_scheduler(optimizer, use_manual_scheduler, n_it)
 
     losses, it_times = [], []
     iloader = iter(trainset)
+    print('train until ', n_it)
     for it in range(n_it):
         it_start_time = time.time()
         # Load next random batch
@@ -103,9 +109,11 @@ def train(model: AutoEncoder, loss_function: Callable, gpu: List[int],
                 'optimizer_state_dict': optimizer.state_dict(),
                 'loss': loss
             }, save_path.format(it))
+            print('SAVE THE MODEL')
 
         # TEST THE MODEL
         if it % iterpoints['test'] == 0 or it == n_it - 1:
+            print('TEST THE MODEL')
             test_time, test_losses = time.time(), []
             conf_mat = ConfusionMatrix()
 
@@ -113,7 +121,9 @@ def train(model: AutoEncoder, loss_function: Callable, gpu: List[int],
             for x, y in testset:
                 logits, loss = loss_function(model, x, y, device)
                 test_losses.append(loss.detach().item())
-                if logits:
+                
+                # if logits:
+                if logits is not None:
                     conf_mat.add(logits, y)
 
             log(writer, it, {'Loss/test': mean(test_losses),

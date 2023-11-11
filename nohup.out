@@ -1,0 +1,28 @@
+['/home/ubuntu/ardino/mjjeon/nsynth-pytorch', '/usr/lib/python38.zip', '/usr/lib/python3.8', '/usr/lib/python3.8/lib-dynload', '/home/ubuntu/.local/lib/python3.8/site-packages', '/usr/local/lib/python3.8/dist-packages', '/usr/lib/python3/dist-packages', '/home/ubuntu/ardino/mjjeon/nsynth-pytorch', '/home/ubuntu/ardino/mjjeon/nsynth-pytorch', '/home/ubuntu/ardino/mjjeon/nsynth-pytorch', '/home/ubuntu/ardino/mjjeon/nsynth-pytorch']
+make model is done.
+Loading NSynth data from split train at /home/ubuntu/ardino/mjjeon/nsynth-pytorch/data/nsynth-train
+	Found 9 samples.
+Loading NSynth data from split test at /home/ubuntu/ardino/mjjeon/nsynth-pytorch/data/nsynth-test
+	Found 2 samples.
+make loaders is done.
+train start!
+
+Using device: cuda:0
+train until  250000
+it=         0		Loss/train:2.990e+03	Time/train:5.962e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=         0		Loss/test:1.166e+02	Time/test:2.934e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=        20		Loss/train:1.173e+02	Time/train:5.108e+00	LR:1.000e-03
+it=        40		Loss/train:1.055e+01	Time/train:5.154e+00	LR:1.000e-03
+it=        60		Loss/train:8.814e+00	Time/train:5.147e+00	LR:1.000e-03
+it=        80		Loss/train:9.416e+00	Time/train:5.145e+00	LR:1.000e-03
+it=       100		Loss/train:9.773e+00	Time/train:5.213e+00	LR:1.000e-03
+it=       120		Loss/train:7.895e+00	Time/train:5.200e+00	LR:1.000e-03
+it=       140		Loss/train:7.285e+00	Time/train:5.178e+00	LR:1.000e-03
+it=       160		Loss/train:7.512e+00	Time/train:5.174e+00	LR:1.000e-03
+it=       180		Loss/train:9.407e+00	Time/train:5.142e+00	LR:1.000e-03
