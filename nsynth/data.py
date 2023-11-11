@@ -47,8 +47,8 @@ class NSynthDataset(data.Dataset):
                              f'\nI got {self.root}')
 
         if not path.isfile(f'{self.root}/examples.json'):
-            raise ValueError('The given root path does not contain an'
-                             'examples.json')
+            raise ValueError('The given root path does not contain an ' \
+                             'examples.json', f'make a file : {self.root}/examples.json')
 
         print(f'Loading NSynth data from split {self.subset} at {self.root}')
 
