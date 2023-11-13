@@ -58,11 +58,11 @@ def generate(model: AutoEncoder, x: torch.Tensor, length: int, device: str) \
     model.eval()
     decoder = model.decoder
     embedding = model.encoder(x).mean(-1).unsqueeze(-1)
-
+    print('before decoder conds')
     # Build and upsample all the conditionals from the embedding:
     l_conds = [l_cond(embedding) for l_cond in decoder.conds]
     l_conds.append(decoder.final_cond(embedding))
-
+    print('after decoder conds')
     generation = decoder.generate(x, l_conds, length, device, 1)
-
+    print('after decoder generate')
     return generation.cpu(), embedding.cpu()

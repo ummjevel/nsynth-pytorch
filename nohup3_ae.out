@@ -9,34 +9,21 @@ train start!
 
 Using device: cuda:0
 train until  250000
-it=         0		Loss/train:3.145e+03	Time/train:5.947e+00	LR:1.000e-03
+it=         0		Loss/train:6.202e+00	Time/train:5.975e+00	LR:1.000e-03
 SAVE THE MODEL
 TEST THE MODEL
 /home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
   warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
-it=         0		Loss/test:3.117e+02	Time/test:3.112e+00
+it=         0		Loss/test:5.977e+00	Time/test:2.974e+00
 /home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
   warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
-it=        20		Loss/train:2.873e+02	Time/train:5.117e+00	LR:1.000e-03
 Traceback (most recent call last):
   File "/home/ubuntu/ardino/mjjeon/nsynth-pytorch/train.py", line 34, in <module>
     main(make_config('train').parse_args())
   File "/home/ubuntu/ardino/mjjeon/nsynth-pytorch/train.py", line 19, in main
     train(model=model,
-  File "/home/ubuntu/ardino/mjjeon/nsynth-pytorch/nsynth/training.py", line 91, in train
-    optimizer.step()
-  File "/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py", line 68, in wrapper
-    return wrapped(*args, **kwargs)
-  File "/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/optimizer.py", line 373, in wrapper
-    out = func(*args, **kwargs)
-  File "/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
-    ret = func(self, *args, **kwargs)
-  File "/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/adam.py", line 163, in step
-    adam(
-  File "/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/adam.py", line 311, in adam
-    func(params,
-  File "/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/adam.py", line 493, in _multi_tensor_adam
-    device_params = [torch.view_as_real(x) if torch.is_complex(x) else x for x in device_params]
-  File "/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/adam.py", line 493, in <listcomp>
-    device_params = [torch.view_as_real(x) if torch.is_complex(x) else x for x in device_params]
+  File "/home/ubuntu/ardino/mjjeon/nsynth-pytorch/nsynth/training.py", line 88, in train
+    _, loss = loss_function(model, x, y, device)
+  File "/home/ubuntu/ardino/mjjeon/nsynth-pytorch/nsynth/autoencoder.py", line 54, in loss_function
+    loss = F.cross_entropy(logits, y.to(device))
 KeyboardInterrupt

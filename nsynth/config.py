@@ -37,7 +37,7 @@ def make_config(version: str) -> ArgumentParser:
         glog = parser.add_argument_group('Logging options')
         glog.add_argument('--itprint', type=int, default=20,
                           help='Frequency of loss print.')
-        glog.add_argument('--itsave', type=int, default=5000,
+        glog.add_argument('--itsave', type=int, default=100,
                           help='Frequency of model checkpoints.')
         glog.add_argument('--ittest', type=int, default=500,
                           help='Frequency of running the test set.')
@@ -66,11 +66,11 @@ def make_config(version: str) -> ArgumentParser:
     gmodel = parser.add_argument_group('Model options')
     gmodel.add_argument('--bottleneck_dims', type=int, default=16,
                         help='Size ot the Autoencoder Bottleneck.')
-    gmodel.add_argument('--encoder_width', type=int, default=128,
+    gmodel.add_argument('--encoder_width', type=int, default=64, # 128
                         help='Dimensions of the encoders hidden layers.')
-    gmodel.add_argument('--decoder_width', type=int, default=512,
+    gmodel.add_argument('--decoder_width', type=int, default=256, # 512
                         help='Dimensions of the decoders hidden layers.')
-    gmodel.add_argument('--nlayers', type=int, default=10, dest='n_layers',
+    gmodel.add_argument('--nlayers', type=int, default=9, dest='n_layers', # 10
                         help='Number of dilation layers in each block.')
     gmodel.add_argument('--nblocks', type=int, default=3, dest='n_blocks',
                         help='Number of blocks.')

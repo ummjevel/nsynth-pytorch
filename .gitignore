@@ -3,3 +3,4 @@ models/
 runs/
 data/musicnet.tar.gz
 data/nsynth-*
+data/samples/

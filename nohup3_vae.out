@@ -1,0 +1,1641 @@
+['/home/ubuntu/ardino/mjjeon/nsynth-pytorch', '/usr/lib/python38.zip', '/usr/lib/python3.8', '/usr/lib/python3.8/lib-dynload', '/home/ubuntu/.local/lib/python3.8/site-packages', '/usr/local/lib/python3.8/dist-packages', '/usr/lib/python3/dist-packages', '/home/ubuntu/ardino/mjjeon/nsynth-pytorch', '/home/ubuntu/ardino/mjjeon/nsynth-pytorch', '/home/ubuntu/ardino/mjjeon/nsynth-pytorch', '/home/ubuntu/ardino/mjjeon/nsynth-pytorch']
+make model is done.
+Loading NSynth data from split train at /home/ubuntu/ardino/mjjeon/nsynth-pytorch/data/nsynth-train
+	Found 9 samples.
+Loading NSynth data from split test at /home/ubuntu/ardino/mjjeon/nsynth-pytorch/data/nsynth-test
+	Found 2 samples.
+make loaders is done.
+train start!
+
+Using device: cuda:0
+train until  250000
+it=         0		Loss/train:4.874e+03	Time/train:4.480e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=         0		Loss/test:1.177e+02	Time/test:2.893e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=        20		Loss/train:1.653e+02	Time/train:3.549e+00	LR:1.000e-03
+it=        40		Loss/train:1.969e+01	Time/train:3.613e+00	LR:1.000e-03
+it=        60		Loss/train:1.376e+01	Time/train:3.614e+00	LR:1.000e-03
+it=        80		Loss/train:9.311e+00	Time/train:3.600e+00	LR:1.000e-03
+it=       100		Loss/train:8.308e+00	Time/train:3.594e+00	LR:1.000e-03
+SAVE THE MODEL
+it=       120		Loss/train:7.435e+00	Time/train:3.610e+00	LR:1.000e-03
+it=       140		Loss/train:8.792e+00	Time/train:3.534e+00	LR:1.000e-03
+it=       160		Loss/train:8.127e+00	Time/train:3.614e+00	LR:1.000e-03
+it=       180		Loss/train:9.031e+00	Time/train:3.515e+00	LR:1.000e-03
+it=       200		Loss/train:9.524e+00	Time/train:3.568e+00	LR:1.000e-03
+SAVE THE MODEL
+it=       220		Loss/train:8.451e+00	Time/train:3.521e+00	LR:1.000e-03
+it=       240		Loss/train:8.085e+00	Time/train:3.534e+00	LR:1.000e-03
+it=       260		Loss/train:7.397e+00	Time/train:3.592e+00	LR:1.000e-03
+it=       280		Loss/train:7.278e+00	Time/train:3.694e+00	LR:1.000e-03
+it=       300		Loss/train:8.418e+00	Time/train:3.705e+00	LR:1.000e-03
+SAVE THE MODEL
+it=       320		Loss/train:6.911e+00	Time/train:3.601e+00	LR:1.000e-03
+it=       340		Loss/train:8.866e+00	Time/train:3.543e+00	LR:1.000e-03
+it=       360		Loss/train:6.946e+00	Time/train:3.528e+00	LR:1.000e-03
+it=       380		Loss/train:9.492e+00	Time/train:3.601e+00	LR:1.000e-03
+it=       400		Loss/train:8.165e+00	Time/train:3.530e+00	LR:1.000e-03
+SAVE THE MODEL
+it=       420		Loss/train:8.692e+00	Time/train:3.533e+00	LR:1.000e-03
+it=       440		Loss/train:7.464e+00	Time/train:3.619e+00	LR:1.000e-03
+it=       460		Loss/train:7.292e+00	Time/train:3.541e+00	LR:1.000e-03
+it=       480		Loss/train:6.347e+00	Time/train:3.610e+00	LR:1.000e-03
+it=       500		Loss/train:6.264e+00	Time/train:3.587e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=       500		Loss/test:4.110e+00	Time/test:2.858e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=       520		Loss/train:7.257e+00	Time/train:3.566e+00	LR:1.000e-03
+it=       540		Loss/train:6.791e+00	Time/train:3.600e+00	LR:1.000e-03
+it=       560		Loss/train:5.545e+00	Time/train:3.604e+00	LR:1.000e-03
+it=       580		Loss/train:8.085e+00	Time/train:3.581e+00	LR:1.000e-03
+it=       600		Loss/train:7.241e+00	Time/train:3.547e+00	LR:1.000e-03
+SAVE THE MODEL
+it=       620		Loss/train:6.451e+00	Time/train:3.545e+00	LR:1.000e-03
+it=       640		Loss/train:7.768e+00	Time/train:3.543e+00	LR:1.000e-03
+it=       660		Loss/train:7.838e+00	Time/train:3.552e+00	LR:1.000e-03
+it=       680		Loss/train:7.717e+00	Time/train:3.673e+00	LR:1.000e-03
+it=       700		Loss/train:7.340e+00	Time/train:3.690e+00	LR:1.000e-03
+SAVE THE MODEL
+it=       720		Loss/train:5.531e+00	Time/train:3.746e+00	LR:1.000e-03
+it=       740		Loss/train:6.506e+00	Time/train:3.542e+00	LR:1.000e-03
+it=       760		Loss/train:6.658e+00	Time/train:3.600e+00	LR:1.000e-03
+it=       780		Loss/train:6.124e+00	Time/train:3.616e+00	LR:1.000e-03
+it=       800		Loss/train:6.308e+00	Time/train:3.555e+00	LR:1.000e-03
+SAVE THE MODEL
+it=       820		Loss/train:7.124e+00	Time/train:3.567e+00	LR:1.000e-03
+it=       840		Loss/train:6.679e+00	Time/train:3.625e+00	LR:1.000e-03
+it=       860		Loss/train:7.355e+00	Time/train:3.579e+00	LR:1.000e-03
+it=       880		Loss/train:8.046e+00	Time/train:3.582e+00	LR:1.000e-03
+it=       900		Loss/train:7.253e+00	Time/train:3.559e+00	LR:1.000e-03
+SAVE THE MODEL
+it=       920		Loss/train:5.564e+00	Time/train:3.562e+00	LR:1.000e-03
+it=       940		Loss/train:5.579e+00	Time/train:3.589e+00	LR:1.000e-03
+it=       960		Loss/train:6.039e+00	Time/train:3.625e+00	LR:1.000e-03
+it=       980		Loss/train:5.927e+00	Time/train:3.580e+00	LR:1.000e-03
+it=      1000		Loss/train:6.360e+00	Time/train:3.579e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      1000		Loss/test:6.972e-01	Time/test:2.882e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      1020		Loss/train:5.344e+00	Time/train:3.565e+00	LR:1.000e-03
+it=      1040		Loss/train:6.936e+00	Time/train:3.577e+00	LR:1.000e-03
+it=      1060		Loss/train:7.393e+00	Time/train:3.578e+00	LR:1.000e-03
+it=      1080		Loss/train:7.070e+00	Time/train:3.577e+00	LR:1.000e-03
+it=      1100		Loss/train:8.297e+00	Time/train:3.588e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      1120		Loss/train:7.165e+00	Time/train:3.556e+00	LR:1.000e-03
+it=      1140		Loss/train:5.996e+00	Time/train:3.554e+00	LR:1.000e-03
+it=      1160		Loss/train:6.859e+00	Time/train:3.562e+00	LR:1.000e-03
+it=      1180		Loss/train:5.517e+00	Time/train:3.572e+00	LR:1.000e-03
+it=      1200		Loss/train:5.895e+00	Time/train:3.599e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      1220		Loss/train:6.182e+00	Time/train:3.591e+00	LR:1.000e-03
+it=      1240		Loss/train:6.568e+00	Time/train:3.586e+00	LR:1.000e-03
+it=      1260		Loss/train:5.708e+00	Time/train:3.564e+00	LR:1.000e-03
+it=      1280		Loss/train:6.221e+00	Time/train:3.584e+00	LR:1.000e-03
+it=      1300		Loss/train:5.247e+00	Time/train:3.563e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      1320		Loss/train:5.858e+00	Time/train:3.578e+00	LR:1.000e-03
+it=      1340		Loss/train:5.669e+00	Time/train:3.574e+00	LR:1.000e-03
+it=      1360		Loss/train:7.428e+00	Time/train:3.573e+00	LR:1.000e-03
+it=      1380		Loss/train:6.827e+00	Time/train:3.568e+00	LR:1.000e-03
+it=      1400		Loss/train:5.649e+00	Time/train:3.553e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      1420		Loss/train:6.074e+00	Time/train:3.572e+00	LR:1.000e-03
+it=      1440		Loss/train:7.313e+00	Time/train:3.535e+00	LR:1.000e-03
+it=      1460		Loss/train:6.281e+00	Time/train:3.583e+00	LR:1.000e-03
+it=      1480		Loss/train:6.709e+00	Time/train:3.605e+00	LR:1.000e-03
+it=      1500		Loss/train:6.404e+00	Time/train:3.548e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      1500		Loss/test:7.355e+00	Time/test:2.963e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      1520		Loss/train:6.452e+00	Time/train:3.774e+00	LR:1.000e-03
+it=      1540		Loss/train:6.042e+00	Time/train:3.650e+00	LR:1.000e-03
+it=      1560		Loss/train:6.139e+00	Time/train:3.601e+00	LR:1.000e-03
+it=      1580		Loss/train:6.082e+00	Time/train:3.600e+00	LR:1.000e-03
+it=      1600		Loss/train:5.404e+00	Time/train:3.558e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      1620		Loss/train:6.823e+00	Time/train:3.566e+00	LR:1.000e-03
+it=      1640		Loss/train:6.887e+00	Time/train:3.570e+00	LR:1.000e-03
+it=      1660		Loss/train:6.186e+00	Time/train:3.599e+00	LR:1.000e-03
+it=      1680		Loss/train:5.279e+00	Time/train:3.565e+00	LR:1.000e-03
+it=      1700		Loss/train:6.061e+00	Time/train:3.552e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      1720		Loss/train:5.570e+00	Time/train:3.577e+00	LR:1.000e-03
+it=      1740		Loss/train:5.470e+00	Time/train:3.567e+00	LR:1.000e-03
+it=      1760		Loss/train:5.558e+00	Time/train:3.549e+00	LR:1.000e-03
+it=      1780		Loss/train:7.359e+00	Time/train:3.532e+00	LR:1.000e-03
+it=      1800		Loss/train:6.428e+00	Time/train:3.558e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      1820		Loss/train:6.172e+00	Time/train:3.526e+00	LR:1.000e-03
+it=      1840		Loss/train:5.519e+00	Time/train:3.571e+00	LR:1.000e-03
+it=      1860		Loss/train:6.127e+00	Time/train:3.560e+00	LR:1.000e-03
+it=      1880		Loss/train:5.188e+00	Time/train:3.569e+00	LR:1.000e-03
+it=      1900		Loss/train:5.933e+00	Time/train:3.561e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      1920		Loss/train:8.139e+00	Time/train:3.531e+00	LR:1.000e-03
+it=      1940		Loss/train:4.896e+00	Time/train:3.545e+00	LR:1.000e-03
+it=      1960		Loss/train:6.109e+00	Time/train:3.542e+00	LR:1.000e-03
+it=      1980		Loss/train:6.353e+00	Time/train:3.621e+00	LR:1.000e-03
+it=      2000		Loss/train:5.154e+00	Time/train:3.577e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      2000		Loss/test:3.015e+00	Time/test:3.489e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      2020		Loss/train:6.409e+00	Time/train:3.566e+00	LR:1.000e-03
+it=      2040		Loss/train:6.321e+00	Time/train:3.577e+00	LR:1.000e-03
+it=      2060		Loss/train:6.138e+00	Time/train:3.563e+00	LR:1.000e-03
+it=      2080		Loss/train:5.464e+00	Time/train:3.610e+00	LR:1.000e-03
+it=      2100		Loss/train:5.377e+00	Time/train:3.576e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      2120		Loss/train:6.728e+00	Time/train:3.652e+00	LR:1.000e-03
+it=      2140		Loss/train:7.486e+00	Time/train:3.567e+00	LR:1.000e-03
+it=      2160		Loss/train:6.930e+00	Time/train:3.588e+00	LR:1.000e-03
+it=      2180		Loss/train:6.397e+00	Time/train:3.581e+00	LR:1.000e-03
+it=      2200		Loss/train:6.009e+00	Time/train:3.560e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      2220		Loss/train:5.801e+00	Time/train:3.577e+00	LR:1.000e-03
+it=      2240		Loss/train:5.354e+00	Time/train:3.591e+00	LR:1.000e-03
+it=      2260		Loss/train:5.074e+00	Time/train:3.570e+00	LR:1.000e-03
+it=      2280		Loss/train:5.718e+00	Time/train:3.554e+00	LR:1.000e-03
+it=      2300		Loss/train:5.483e+00	Time/train:3.626e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      2320		Loss/train:5.937e+00	Time/train:3.597e+00	LR:1.000e-03
+it=      2340		Loss/train:5.662e+00	Time/train:3.633e+00	LR:1.000e-03
+it=      2360		Loss/train:6.252e+00	Time/train:3.652e+00	LR:1.000e-03
+it=      2380		Loss/train:6.502e+00	Time/train:3.695e+00	LR:1.000e-03
+it=      2400		Loss/train:5.865e+00	Time/train:3.675e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      2420		Loss/train:6.189e+00	Time/train:3.566e+00	LR:1.000e-03
+it=      2440		Loss/train:5.577e+00	Time/train:3.575e+00	LR:1.000e-03
+it=      2460		Loss/train:6.179e+00	Time/train:3.574e+00	LR:1.000e-03
+it=      2480		Loss/train:5.635e+00	Time/train:3.608e+00	LR:1.000e-03
+it=      2500		Loss/train:6.136e+00	Time/train:3.589e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      2500		Loss/test:4.566e+00	Time/test:2.980e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      2520		Loss/train:5.994e+00	Time/train:3.577e+00	LR:1.000e-03
+it=      2540		Loss/train:5.495e+00	Time/train:3.559e+00	LR:1.000e-03
+it=      2560		Loss/train:4.896e+00	Time/train:3.553e+00	LR:1.000e-03
+it=      2580		Loss/train:5.773e+00	Time/train:3.592e+00	LR:1.000e-03
+it=      2600		Loss/train:5.145e+00	Time/train:3.586e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      2620		Loss/train:5.780e+00	Time/train:3.547e+00	LR:1.000e-03
+it=      2640		Loss/train:5.004e+00	Time/train:3.565e+00	LR:1.000e-03
+it=      2660		Loss/train:6.306e+00	Time/train:3.614e+00	LR:1.000e-03
+it=      2680		Loss/train:4.315e+00	Time/train:3.600e+00	LR:1.000e-03
+it=      2700		Loss/train:6.226e+00	Time/train:3.695e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      2720		Loss/train:6.436e+00	Time/train:3.607e+00	LR:1.000e-03
+it=      2740		Loss/train:7.191e+00	Time/train:3.591e+00	LR:1.000e-03
+it=      2760		Loss/train:5.780e+00	Time/train:3.589e+00	LR:1.000e-03
+it=      2780		Loss/train:6.023e+00	Time/train:3.585e+00	LR:1.000e-03
+it=      2800		Loss/train:5.573e+00	Time/train:3.588e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      2820		Loss/train:6.851e+00	Time/train:3.651e+00	LR:1.000e-03
+it=      2840		Loss/train:5.980e+00	Time/train:3.558e+00	LR:1.000e-03
+it=      2860		Loss/train:4.940e+00	Time/train:3.597e+00	LR:1.000e-03
+it=      2880		Loss/train:5.403e+00	Time/train:3.560e+00	LR:1.000e-03
+it=      2900		Loss/train:4.982e+00	Time/train:3.587e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      2920		Loss/train:5.138e+00	Time/train:3.592e+00	LR:1.000e-03
+it=      2940		Loss/train:4.555e+00	Time/train:3.551e+00	LR:1.000e-03
+it=      2960		Loss/train:4.421e+00	Time/train:3.547e+00	LR:1.000e-03
+it=      2980		Loss/train:6.179e+00	Time/train:3.551e+00	LR:1.000e-03
+it=      3000		Loss/train:5.231e+00	Time/train:3.544e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      3000		Loss/test:4.051e+00	Time/test:2.939e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      3020		Loss/train:6.545e+00	Time/train:3.548e+00	LR:1.000e-03
+it=      3040		Loss/train:6.331e+00	Time/train:3.602e+00	LR:1.000e-03
+it=      3060		Loss/train:5.045e+00	Time/train:3.615e+00	LR:1.000e-03
+it=      3080		Loss/train:5.665e+00	Time/train:3.682e+00	LR:1.000e-03
+it=      3100		Loss/train:5.245e+00	Time/train:3.716e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      3120		Loss/train:4.880e+00	Time/train:3.630e+00	LR:1.000e-03
+it=      3140		Loss/train:6.126e+00	Time/train:3.590e+00	LR:1.000e-03
+it=      3160		Loss/train:5.827e+00	Time/train:3.602e+00	LR:1.000e-03
+it=      3180		Loss/train:5.642e+00	Time/train:3.550e+00	LR:1.000e-03
+it=      3200		Loss/train:5.012e+00	Time/train:3.591e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      3220		Loss/train:6.113e+00	Time/train:3.617e+00	LR:1.000e-03
+it=      3240		Loss/train:5.566e+00	Time/train:3.557e+00	LR:1.000e-03
+it=      3260		Loss/train:5.432e+00	Time/train:3.571e+00	LR:1.000e-03
+it=      3280		Loss/train:5.605e+00	Time/train:3.554e+00	LR:1.000e-03
+it=      3300		Loss/train:5.167e+00	Time/train:3.605e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      3320		Loss/train:4.894e+00	Time/train:3.593e+00	LR:1.000e-03
+it=      3340		Loss/train:5.082e+00	Time/train:3.563e+00	LR:1.000e-03
+it=      3360		Loss/train:5.731e+00	Time/train:3.559e+00	LR:1.000e-03
+it=      3380		Loss/train:4.643e+00	Time/train:3.558e+00	LR:1.000e-03
+it=      3400		Loss/train:4.171e+00	Time/train:3.577e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      3420		Loss/train:4.214e+00	Time/train:3.576e+00	LR:1.000e-03
+it=      3440		Loss/train:5.420e+00	Time/train:3.538e+00	LR:1.000e-03
+it=      3460		Loss/train:5.617e+00	Time/train:3.537e+00	LR:1.000e-03
+it=      3480		Loss/train:5.548e+00	Time/train:3.575e+00	LR:1.000e-03
+it=      3500		Loss/train:6.273e+00	Time/train:3.562e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      3500		Loss/test:3.300e+00	Time/test:2.884e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      3520		Loss/train:5.198e+00	Time/train:3.587e+00	LR:1.000e-03
+it=      3540		Loss/train:5.471e+00	Time/train:3.586e+00	LR:1.000e-03
+it=      3560		Loss/train:6.097e+00	Time/train:3.604e+00	LR:1.000e-03
+it=      3580		Loss/train:5.514e+00	Time/train:3.559e+00	LR:1.000e-03
+it=      3600		Loss/train:4.709e+00	Time/train:3.656e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      3620		Loss/train:4.921e+00	Time/train:3.538e+00	LR:1.000e-03
+it=      3640		Loss/train:4.299e+00	Time/train:3.564e+00	LR:1.000e-03
+it=      3660		Loss/train:4.361e+00	Time/train:3.553e+00	LR:1.000e-03
+it=      3680		Loss/train:5.012e+00	Time/train:3.579e+00	LR:1.000e-03
+it=      3700		Loss/train:5.144e+00	Time/train:3.617e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      3720		Loss/train:4.759e+00	Time/train:3.556e+00	LR:1.000e-03
+it=      3740		Loss/train:4.591e+00	Time/train:3.560e+00	LR:1.000e-03
+it=      3760		Loss/train:5.432e+00	Time/train:3.572e+00	LR:1.000e-03
+it=      3780		Loss/train:5.493e+00	Time/train:3.572e+00	LR:1.000e-03
+it=      3800		Loss/train:4.649e+00	Time/train:3.538e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      3820		Loss/train:5.108e+00	Time/train:3.526e+00	LR:1.000e-03
+it=      3840		Loss/train:4.840e+00	Time/train:3.564e+00	LR:1.000e-03
+it=      3860		Loss/train:6.353e+00	Time/train:3.569e+00	LR:1.000e-03
+it=      3880		Loss/train:4.652e+00	Time/train:3.601e+00	LR:1.000e-03
+it=      3900		Loss/train:4.119e+00	Time/train:3.566e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      3920		Loss/train:5.250e+00	Time/train:3.564e+00	LR:1.000e-03
+it=      3940		Loss/train:4.047e+00	Time/train:3.591e+00	LR:1.000e-03
+it=      3960		Loss/train:7.148e+00	Time/train:3.691e+00	LR:1.000e-03
+it=      3980		Loss/train:5.574e+00	Time/train:3.729e+00	LR:1.000e-03
+it=      4000		Loss/train:4.631e+00	Time/train:3.685e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      4000		Loss/test:2.272e+00	Time/test:2.928e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      4020		Loss/train:5.486e+00	Time/train:3.596e+00	LR:1.000e-03
+it=      4040		Loss/train:5.454e+00	Time/train:3.584e+00	LR:1.000e-03
+it=      4060		Loss/train:5.233e+00	Time/train:3.586e+00	LR:1.000e-03
+it=      4080		Loss/train:5.503e+00	Time/train:3.572e+00	LR:1.000e-03
+it=      4100		Loss/train:3.908e+00	Time/train:3.566e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      4120		Loss/train:6.037e+00	Time/train:3.622e+00	LR:1.000e-03
+it=      4140		Loss/train:4.889e+00	Time/train:3.568e+00	LR:1.000e-03
+it=      4160		Loss/train:5.381e+00	Time/train:3.589e+00	LR:1.000e-03
+it=      4180		Loss/train:4.436e+00	Time/train:3.556e+00	LR:1.000e-03
+it=      4200		Loss/train:5.881e+00	Time/train:3.570e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      4220		Loss/train:4.345e+00	Time/train:3.522e+00	LR:1.000e-03
+it=      4240		Loss/train:5.380e+00	Time/train:3.518e+00	LR:1.000e-03
+it=      4260		Loss/train:5.210e+00	Time/train:3.567e+00	LR:1.000e-03
+it=      4280		Loss/train:4.640e+00	Time/train:3.582e+00	LR:1.000e-03
+it=      4300		Loss/train:5.342e+00	Time/train:3.571e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      4320		Loss/train:3.905e+00	Time/train:3.724e+00	LR:1.000e-03
+it=      4340		Loss/train:4.485e+00	Time/train:3.600e+00	LR:1.000e-03
+it=      4360		Loss/train:4.856e+00	Time/train:3.563e+00	LR:1.000e-03
+it=      4380		Loss/train:4.220e+00	Time/train:3.573e+00	LR:1.000e-03
+it=      4400		Loss/train:5.663e+00	Time/train:3.577e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      4420		Loss/train:6.287e+00	Time/train:3.622e+00	LR:1.000e-03
+it=      4440		Loss/train:4.988e+00	Time/train:3.575e+00	LR:1.000e-03
+it=      4460		Loss/train:5.368e+00	Time/train:3.572e+00	LR:1.000e-03
+it=      4480		Loss/train:4.296e+00	Time/train:3.621e+00	LR:1.000e-03
+it=      4500		Loss/train:3.565e+00	Time/train:3.576e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      4500		Loss/test:4.622e+00	Time/test:2.849e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      4520		Loss/train:5.044e+00	Time/train:3.549e+00	LR:1.000e-03
+it=      4540		Loss/train:4.662e+00	Time/train:3.547e+00	LR:1.000e-03
+it=      4560		Loss/train:5.559e+00	Time/train:3.623e+00	LR:1.000e-03
+it=      4580		Loss/train:5.716e+00	Time/train:3.503e+00	LR:1.000e-03
+it=      4600		Loss/train:4.555e+00	Time/train:3.550e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      4620		Loss/train:5.334e+00	Time/train:3.561e+00	LR:1.000e-03
+it=      4640		Loss/train:4.486e+00	Time/train:3.611e+00	LR:1.000e-03
+it=      4660		Loss/train:5.050e+00	Time/train:3.687e+00	LR:1.000e-03
+it=      4680		Loss/train:5.246e+00	Time/train:3.713e+00	LR:1.000e-03
+it=      4700		Loss/train:4.764e+00	Time/train:3.586e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      4720		Loss/train:4.857e+00	Time/train:3.611e+00	LR:1.000e-03
+it=      4740		Loss/train:4.257e+00	Time/train:3.589e+00	LR:1.000e-03
+it=      4760		Loss/train:4.419e+00	Time/train:3.562e+00	LR:1.000e-03
+it=      4780		Loss/train:5.470e+00	Time/train:3.573e+00	LR:1.000e-03
+it=      4800		Loss/train:4.134e+00	Time/train:3.545e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      4820		Loss/train:5.366e+00	Time/train:3.537e+00	LR:1.000e-03
+it=      4840		Loss/train:4.249e+00	Time/train:3.559e+00	LR:1.000e-03
+it=      4860		Loss/train:4.125e+00	Time/train:3.562e+00	LR:1.000e-03
+it=      4880		Loss/train:4.260e+00	Time/train:3.533e+00	LR:1.000e-03
+it=      4900		Loss/train:4.727e+00	Time/train:3.548e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      4920		Loss/train:4.256e+00	Time/train:3.551e+00	LR:1.000e-03
+it=      4940		Loss/train:4.364e+00	Time/train:3.559e+00	LR:1.000e-03
+it=      4960		Loss/train:3.817e+00	Time/train:3.588e+00	LR:1.000e-03
+it=      4980		Loss/train:4.191e+00	Time/train:3.565e+00	LR:1.000e-03
+it=      5000		Loss/train:4.576e+00	Time/train:3.548e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      5000		Loss/test:-7.513e-02	Time/test:2.819e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      5020		Loss/train:4.279e+00	Time/train:3.696e+00	LR:1.000e-03
+it=      5040		Loss/train:4.442e+00	Time/train:3.724e+00	LR:1.000e-03
+it=      5060		Loss/train:4.537e+00	Time/train:3.652e+00	LR:1.000e-03
+it=      5080		Loss/train:4.827e+00	Time/train:3.586e+00	LR:1.000e-03
+it=      5100		Loss/train:5.161e+00	Time/train:3.579e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      5120		Loss/train:3.833e+00	Time/train:3.591e+00	LR:1.000e-03
+it=      5140		Loss/train:4.249e+00	Time/train:3.565e+00	LR:1.000e-03
+it=      5160		Loss/train:4.701e+00	Time/train:3.541e+00	LR:1.000e-03
+it=      5180		Loss/train:4.152e+00	Time/train:3.559e+00	LR:1.000e-03
+it=      5200		Loss/train:5.447e+00	Time/train:3.578e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      5220		Loss/train:4.754e+00	Time/train:3.571e+00	LR:1.000e-03
+it=      5240		Loss/train:4.629e+00	Time/train:3.544e+00	LR:1.000e-03
+it=      5260		Loss/train:5.288e+00	Time/train:3.556e+00	LR:1.000e-03
+it=      5280		Loss/train:4.455e+00	Time/train:3.560e+00	LR:1.000e-03
+it=      5300		Loss/train:3.690e+00	Time/train:3.564e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      5320		Loss/train:4.094e+00	Time/train:3.579e+00	LR:1.000e-03
+it=      5340		Loss/train:6.398e+00	Time/train:3.588e+00	LR:1.000e-03
+it=      5360		Loss/train:4.285e+00	Time/train:3.544e+00	LR:1.000e-03
+it=      5380		Loss/train:4.708e+00	Time/train:3.534e+00	LR:1.000e-03
+it=      5400		Loss/train:4.101e+00	Time/train:3.584e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      5420		Loss/train:3.503e+00	Time/train:3.534e+00	LR:1.000e-03
+it=      5440		Loss/train:4.349e+00	Time/train:3.574e+00	LR:1.000e-03
+it=      5460		Loss/train:4.438e+00	Time/train:3.569e+00	LR:1.000e-03
+it=      5480		Loss/train:4.679e+00	Time/train:3.540e+00	LR:1.000e-03
+it=      5500		Loss/train:4.685e+00	Time/train:3.547e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      5500		Loss/test:2.509e+00	Time/test:3.130e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      5520		Loss/train:5.571e+00	Time/train:3.578e+00	LR:1.000e-03
+it=      5540		Loss/train:5.236e+00	Time/train:3.624e+00	LR:1.000e-03
+it=      5560		Loss/train:3.455e+00	Time/train:3.580e+00	LR:1.000e-03
+it=      5580		Loss/train:5.244e+00	Time/train:3.614e+00	LR:1.000e-03
+it=      5600		Loss/train:4.615e+00	Time/train:3.559e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      5620		Loss/train:5.157e+00	Time/train:3.614e+00	LR:1.000e-03
+it=      5640		Loss/train:4.606e+00	Time/train:3.577e+00	LR:1.000e-03
+it=      5660		Loss/train:4.258e+00	Time/train:3.574e+00	LR:1.000e-03
+it=      5680		Loss/train:3.824e+00	Time/train:3.567e+00	LR:1.000e-03
+it=      5700		Loss/train:4.075e+00	Time/train:3.548e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      5720		Loss/train:4.368e+00	Time/train:3.583e+00	LR:1.000e-03
+it=      5740		Loss/train:4.483e+00	Time/train:3.558e+00	LR:1.000e-03
+it=      5760		Loss/train:5.434e+00	Time/train:3.570e+00	LR:1.000e-03
+it=      5780		Loss/train:3.726e+00	Time/train:3.549e+00	LR:1.000e-03
+it=      5800		Loss/train:4.715e+00	Time/train:3.555e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      5820		Loss/train:4.171e+00	Time/train:3.578e+00	LR:1.000e-03
+it=      5840		Loss/train:4.743e+00	Time/train:3.576e+00	LR:1.000e-03
+it=      5860		Loss/train:3.895e+00	Time/train:3.567e+00	LR:1.000e-03
+it=      5880		Loss/train:4.511e+00	Time/train:3.577e+00	LR:1.000e-03
+it=      5900		Loss/train:4.225e+00	Time/train:3.569e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      5920		Loss/train:4.106e+00	Time/train:3.726e+00	LR:1.000e-03
+it=      5940		Loss/train:4.267e+00	Time/train:3.705e+00	LR:1.000e-03
+it=      5960		Loss/train:4.115e+00	Time/train:3.588e+00	LR:1.000e-03
+it=      5980		Loss/train:3.593e+00	Time/train:3.594e+00	LR:1.000e-03
+it=      6000		Loss/train:4.630e+00	Time/train:3.556e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      6000		Loss/test:2.691e+00	Time/test:2.842e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      6020		Loss/train:4.835e+00	Time/train:3.601e+00	LR:1.000e-03
+it=      6040		Loss/train:3.804e+00	Time/train:3.557e+00	LR:1.000e-03
+it=      6060		Loss/train:5.096e+00	Time/train:3.637e+00	LR:1.000e-03
+it=      6080		Loss/train:4.202e+00	Time/train:3.570e+00	LR:1.000e-03
+it=      6100		Loss/train:3.948e+00	Time/train:3.572e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      6120		Loss/train:4.926e+00	Time/train:3.559e+00	LR:1.000e-03
+it=      6140		Loss/train:5.015e+00	Time/train:3.552e+00	LR:1.000e-03
+it=      6160		Loss/train:5.168e+00	Time/train:3.607e+00	LR:1.000e-03
+it=      6180		Loss/train:4.561e+00	Time/train:3.650e+00	LR:1.000e-03
+it=      6200		Loss/train:4.972e+00	Time/train:3.619e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      6220		Loss/train:4.449e+00	Time/train:3.598e+00	LR:1.000e-03
+it=      6240		Loss/train:3.806e+00	Time/train:3.583e+00	LR:1.000e-03
+it=      6260		Loss/train:4.148e+00	Time/train:3.730e+00	LR:1.000e-03
+it=      6280		Loss/train:4.290e+00	Time/train:3.773e+00	LR:1.000e-03
+it=      6300		Loss/train:4.551e+00	Time/train:3.590e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      6320		Loss/train:4.580e+00	Time/train:3.582e+00	LR:1.000e-03
+it=      6340		Loss/train:3.935e+00	Time/train:3.631e+00	LR:1.000e-03
+it=      6360		Loss/train:4.764e+00	Time/train:3.575e+00	LR:1.000e-03
+it=      6380		Loss/train:4.146e+00	Time/train:3.570e+00	LR:1.000e-03
+it=      6400		Loss/train:4.035e+00	Time/train:3.594e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      6420		Loss/train:4.181e+00	Time/train:3.572e+00	LR:1.000e-03
+it=      6440		Loss/train:3.712e+00	Time/train:3.576e+00	LR:1.000e-03
+it=      6460		Loss/train:4.460e+00	Time/train:3.565e+00	LR:1.000e-03
+it=      6480		Loss/train:4.285e+00	Time/train:3.609e+00	LR:1.000e-03
+it=      6500		Loss/train:3.737e+00	Time/train:3.563e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      6500		Loss/test:1.844e+00	Time/test:2.973e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      6520		Loss/train:5.470e+00	Time/train:3.577e+00	LR:1.000e-03
+it=      6540		Loss/train:5.117e+00	Time/train:3.631e+00	LR:1.000e-03
+it=      6560		Loss/train:4.139e+00	Time/train:3.555e+00	LR:1.000e-03
+it=      6580		Loss/train:4.076e+00	Time/train:3.577e+00	LR:1.000e-03
+it=      6600		Loss/train:4.193e+00	Time/train:3.603e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      6620		Loss/train:4.510e+00	Time/train:3.756e+00	LR:1.000e-03
+it=      6640		Loss/train:3.977e+00	Time/train:3.640e+00	LR:1.000e-03
+it=      6660		Loss/train:3.961e+00	Time/train:3.562e+00	LR:1.000e-03
+it=      6680		Loss/train:3.931e+00	Time/train:3.563e+00	LR:1.000e-03
+it=      6700		Loss/train:4.191e+00	Time/train:3.608e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      6720		Loss/train:3.815e+00	Time/train:3.625e+00	LR:1.000e-03
+it=      6740		Loss/train:4.782e+00	Time/train:3.574e+00	LR:1.000e-03
+it=      6760		Loss/train:4.712e+00	Time/train:3.596e+00	LR:1.000e-03
+it=      6780		Loss/train:4.693e+00	Time/train:3.593e+00	LR:1.000e-03
+it=      6800		Loss/train:4.558e+00	Time/train:3.613e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      6820		Loss/train:4.553e+00	Time/train:3.611e+00	LR:1.000e-03
+it=      6840		Loss/train:2.943e+00	Time/train:3.614e+00	LR:1.000e-03
+it=      6860		Loss/train:4.525e+00	Time/train:3.619e+00	LR:1.000e-03
+it=      6880		Loss/train:4.351e+00	Time/train:3.588e+00	LR:1.000e-03
+it=      6900		Loss/train:4.147e+00	Time/train:3.574e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      6920		Loss/train:3.291e+00	Time/train:3.602e+00	LR:1.000e-03
+it=      6940		Loss/train:4.738e+00	Time/train:3.589e+00	LR:1.000e-03
+it=      6960		Loss/train:4.174e+00	Time/train:3.578e+00	LR:1.000e-03
+it=      6980		Loss/train:3.917e+00	Time/train:3.640e+00	LR:1.000e-03
+it=      7000		Loss/train:3.808e+00	Time/train:3.542e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      7000		Loss/test:3.415e+00	Time/test:2.924e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      7020		Loss/train:4.314e+00	Time/train:3.740e+00	LR:1.000e-03
+it=      7040		Loss/train:4.138e+00	Time/train:3.724e+00	LR:1.000e-03
+it=      7060		Loss/train:4.585e+00	Time/train:3.697e+00	LR:1.000e-03
+it=      7080		Loss/train:4.025e+00	Time/train:3.587e+00	LR:1.000e-03
+it=      7100		Loss/train:4.379e+00	Time/train:3.547e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      7120		Loss/train:3.816e+00	Time/train:3.618e+00	LR:1.000e-03
+it=      7140		Loss/train:3.450e+00	Time/train:3.572e+00	LR:1.000e-03
+it=      7160		Loss/train:3.685e+00	Time/train:3.588e+00	LR:1.000e-03
+it=      7180		Loss/train:3.536e+00	Time/train:3.629e+00	LR:1.000e-03
+it=      7200		Loss/train:3.931e+00	Time/train:3.660e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      7220		Loss/train:3.898e+00	Time/train:3.676e+00	LR:1.000e-03
+it=      7240		Loss/train:3.986e+00	Time/train:3.636e+00	LR:1.000e-03
+it=      7260		Loss/train:4.292e+00	Time/train:3.631e+00	LR:1.000e-03
+it=      7280		Loss/train:5.000e+00	Time/train:3.593e+00	LR:1.000e-03
+it=      7300		Loss/train:3.872e+00	Time/train:3.587e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      7320		Loss/train:4.171e+00	Time/train:3.580e+00	LR:1.000e-03
+it=      7340		Loss/train:3.742e+00	Time/train:3.551e+00	LR:1.000e-03
+it=      7360		Loss/train:3.138e+00	Time/train:3.578e+00	LR:1.000e-03
+it=      7380		Loss/train:3.747e+00	Time/train:3.572e+00	LR:1.000e-03
+it=      7400		Loss/train:4.116e+00	Time/train:3.614e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      7420		Loss/train:4.221e+00	Time/train:3.572e+00	LR:1.000e-03
+it=      7440		Loss/train:4.518e+00	Time/train:3.578e+00	LR:1.000e-03
+it=      7460		Loss/train:4.122e+00	Time/train:3.543e+00	LR:1.000e-03
+it=      7480		Loss/train:4.209e+00	Time/train:3.539e+00	LR:1.000e-03
+it=      7500		Loss/train:3.756e+00	Time/train:3.556e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      7500		Loss/test:1.359e+00	Time/test:3.334e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      7520		Loss/train:4.022e+00	Time/train:3.610e+00	LR:1.000e-03
+it=      7540		Loss/train:3.533e+00	Time/train:3.609e+00	LR:1.000e-03
+it=      7560		Loss/train:4.840e+00	Time/train:3.584e+00	LR:1.000e-03
+it=      7580		Loss/train:3.760e+00	Time/train:3.628e+00	LR:1.000e-03
+it=      7600		Loss/train:3.978e+00	Time/train:3.627e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      7620		Loss/train:3.834e+00	Time/train:3.619e+00	LR:1.000e-03
+it=      7640		Loss/train:3.403e+00	Time/train:3.582e+00	LR:1.000e-03
+it=      7660		Loss/train:3.448e+00	Time/train:3.578e+00	LR:1.000e-03
+it=      7680		Loss/train:2.967e+00	Time/train:3.591e+00	LR:1.000e-03
+it=      7700		Loss/train:3.958e+00	Time/train:3.574e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      7720		Loss/train:3.207e+00	Time/train:3.588e+00	LR:1.000e-03
+it=      7740		Loss/train:3.872e+00	Time/train:3.595e+00	LR:1.000e-03
+it=      7760		Loss/train:3.927e+00	Time/train:3.588e+00	LR:1.000e-03
+it=      7780		Loss/train:3.278e+00	Time/train:3.587e+00	LR:1.000e-03
+it=      7800		Loss/train:3.545e+00	Time/train:3.572e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      7820		Loss/train:3.876e+00	Time/train:3.544e+00	LR:1.000e-03
+it=      7840		Loss/train:4.218e+00	Time/train:3.638e+00	LR:1.000e-03
+it=      7860		Loss/train:4.022e+00	Time/train:3.666e+00	LR:1.000e-03
+it=      7880		Loss/train:3.202e+00	Time/train:3.672e+00	LR:1.000e-03
+it=      7900		Loss/train:3.231e+00	Time/train:3.821e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      7920		Loss/train:3.301e+00	Time/train:3.643e+00	LR:1.000e-03
+it=      7940		Loss/train:3.894e+00	Time/train:3.587e+00	LR:1.000e-03
+it=      7960		Loss/train:3.969e+00	Time/train:3.607e+00	LR:1.000e-03
+it=      7980		Loss/train:3.749e+00	Time/train:3.555e+00	LR:1.000e-03
+it=      8000		Loss/train:3.392e+00	Time/train:3.579e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      8000		Loss/test:1.928e+00	Time/test:2.918e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      8020		Loss/train:3.618e+00	Time/train:3.628e+00	LR:1.000e-03
+it=      8040		Loss/train:3.672e+00	Time/train:3.604e+00	LR:1.000e-03
+it=      8060		Loss/train:4.454e+00	Time/train:3.634e+00	LR:1.000e-03
+it=      8080		Loss/train:3.647e+00	Time/train:3.621e+00	LR:1.000e-03
+it=      8100		Loss/train:3.053e+00	Time/train:3.611e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      8120		Loss/train:3.410e+00	Time/train:3.629e+00	LR:1.000e-03
+it=      8140		Loss/train:3.294e+00	Time/train:3.579e+00	LR:1.000e-03
+it=      8160		Loss/train:3.284e+00	Time/train:3.602e+00	LR:1.000e-03
+it=      8180		Loss/train:3.704e+00	Time/train:3.567e+00	LR:1.000e-03
+it=      8200		Loss/train:3.731e+00	Time/train:3.654e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      8220		Loss/train:3.761e+00	Time/train:3.593e+00	LR:1.000e-03
+it=      8240		Loss/train:3.498e+00	Time/train:3.605e+00	LR:1.000e-03
+it=      8260		Loss/train:3.509e+00	Time/train:3.624e+00	LR:1.000e-03
+it=      8280		Loss/train:3.398e+00	Time/train:3.589e+00	LR:1.000e-03
+it=      8300		Loss/train:3.978e+00	Time/train:3.694e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      8320		Loss/train:3.452e+00	Time/train:3.638e+00	LR:1.000e-03
+it=      8340		Loss/train:2.584e+00	Time/train:3.599e+00	LR:1.000e-03
+it=      8360		Loss/train:4.011e+00	Time/train:3.626e+00	LR:1.000e-03
+it=      8380		Loss/train:3.452e+00	Time/train:3.585e+00	LR:1.000e-03
+it=      8400		Loss/train:4.292e+00	Time/train:3.568e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      8420		Loss/train:3.156e+00	Time/train:3.620e+00	LR:1.000e-03
+it=      8440		Loss/train:3.642e+00	Time/train:3.558e+00	LR:1.000e-03
+it=      8460		Loss/train:3.644e+00	Time/train:3.598e+00	LR:1.000e-03
+it=      8480		Loss/train:3.962e+00	Time/train:3.603e+00	LR:1.000e-03
+it=      8500		Loss/train:3.736e+00	Time/train:3.639e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      8500		Loss/test:1.737e+00	Time/test:3.027e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      8520		Loss/train:3.483e+00	Time/train:3.598e+00	LR:1.000e-03
+it=      8540		Loss/train:3.705e+00	Time/train:3.610e+00	LR:1.000e-03
+it=      8560		Loss/train:3.895e+00	Time/train:3.653e+00	LR:1.000e-03
+it=      8580		Loss/train:3.835e+00	Time/train:3.587e+00	LR:1.000e-03
+it=      8600		Loss/train:3.830e+00	Time/train:3.573e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      8620		Loss/train:3.796e+00	Time/train:3.636e+00	LR:1.000e-03
+it=      8640		Loss/train:3.319e+00	Time/train:3.632e+00	LR:1.000e-03
+it=      8660		Loss/train:3.117e+00	Time/train:3.678e+00	LR:1.000e-03
+it=      8680		Loss/train:3.102e+00	Time/train:3.728e+00	LR:1.000e-03
+it=      8700		Loss/train:3.719e+00	Time/train:3.726e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      8720		Loss/train:3.672e+00	Time/train:3.664e+00	LR:1.000e-03
+it=      8740		Loss/train:3.799e+00	Time/train:3.569e+00	LR:1.000e-03
+it=      8760		Loss/train:3.834e+00	Time/train:3.637e+00	LR:1.000e-03
+it=      8780		Loss/train:3.950e+00	Time/train:3.583e+00	LR:1.000e-03
+it=      8800		Loss/train:4.360e+00	Time/train:3.580e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      8820		Loss/train:3.761e+00	Time/train:3.571e+00	LR:1.000e-03
+it=      8840		Loss/train:3.411e+00	Time/train:3.597e+00	LR:1.000e-03
+it=      8860		Loss/train:3.222e+00	Time/train:3.607e+00	LR:1.000e-03
+it=      8880		Loss/train:3.604e+00	Time/train:3.558e+00	LR:1.000e-03
+it=      8900		Loss/train:3.024e+00	Time/train:3.574e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      8920		Loss/train:4.130e+00	Time/train:3.623e+00	LR:1.000e-03
+it=      8940		Loss/train:3.749e+00	Time/train:3.545e+00	LR:1.000e-03
+it=      8960		Loss/train:3.797e+00	Time/train:3.549e+00	LR:1.000e-03
+it=      8980		Loss/train:2.894e+00	Time/train:3.555e+00	LR:1.000e-03
+it=      9000		Loss/train:3.211e+00	Time/train:3.551e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      9000		Loss/test:1.913e+00	Time/test:2.819e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      9020		Loss/train:2.864e+00	Time/train:3.680e+00	LR:1.000e-03
+it=      9040		Loss/train:3.296e+00	Time/train:3.748e+00	LR:1.000e-03
+it=      9060		Loss/train:3.500e+00	Time/train:3.610e+00	LR:1.000e-03
+it=      9080		Loss/train:4.508e+00	Time/train:3.627e+00	LR:1.000e-03
+it=      9100		Loss/train:3.699e+00	Time/train:3.604e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      9120		Loss/train:3.503e+00	Time/train:3.610e+00	LR:1.000e-03
+it=      9140		Loss/train:3.571e+00	Time/train:3.584e+00	LR:1.000e-03
+it=      9160		Loss/train:3.188e+00	Time/train:3.644e+00	LR:1.000e-03
+it=      9180		Loss/train:3.948e+00	Time/train:3.624e+00	LR:1.000e-03
+it=      9200		Loss/train:4.003e+00	Time/train:3.681e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      9220		Loss/train:4.191e+00	Time/train:3.651e+00	LR:1.000e-03
+it=      9240		Loss/train:3.089e+00	Time/train:3.563e+00	LR:1.000e-03
+it=      9260		Loss/train:2.949e+00	Time/train:3.546e+00	LR:1.000e-03
+it=      9280		Loss/train:2.970e+00	Time/train:3.575e+00	LR:1.000e-03
+it=      9300		Loss/train:3.231e+00	Time/train:3.559e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      9320		Loss/train:3.061e+00	Time/train:3.586e+00	LR:1.000e-03
+it=      9340		Loss/train:3.463e+00	Time/train:3.598e+00	LR:1.000e-03
+it=      9360		Loss/train:3.459e+00	Time/train:3.590e+00	LR:1.000e-03
+it=      9380		Loss/train:3.188e+00	Time/train:3.547e+00	LR:1.000e-03
+it=      9400		Loss/train:3.397e+00	Time/train:3.582e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      9420		Loss/train:3.534e+00	Time/train:3.592e+00	LR:1.000e-03
+it=      9440		Loss/train:2.909e+00	Time/train:3.563e+00	LR:1.000e-03
+it=      9460		Loss/train:3.638e+00	Time/train:3.555e+00	LR:1.000e-03
+it=      9480		Loss/train:2.404e+00	Time/train:3.511e+00	LR:1.000e-03
+it=      9500		Loss/train:3.866e+00	Time/train:3.554e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=      9500		Loss/test:2.836e+00	Time/test:3.077e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=      9520		Loss/train:3.119e+00	Time/train:3.624e+00	LR:1.000e-03
+it=      9540		Loss/train:3.095e+00	Time/train:3.651e+00	LR:1.000e-03
+it=      9560		Loss/train:3.640e+00	Time/train:3.595e+00	LR:1.000e-03
+it=      9580		Loss/train:2.964e+00	Time/train:3.619e+00	LR:1.000e-03
+it=      9600		Loss/train:3.086e+00	Time/train:3.612e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      9620		Loss/train:3.020e+00	Time/train:3.597e+00	LR:1.000e-03
+it=      9640		Loss/train:3.253e+00	Time/train:3.601e+00	LR:1.000e-03
+it=      9660		Loss/train:3.265e+00	Time/train:3.623e+00	LR:1.000e-03
+it=      9680		Loss/train:3.161e+00	Time/train:3.592e+00	LR:1.000e-03
+it=      9700		Loss/train:3.174e+00	Time/train:3.534e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      9720		Loss/train:3.245e+00	Time/train:3.556e+00	LR:1.000e-03
+it=      9740		Loss/train:2.820e+00	Time/train:3.635e+00	LR:1.000e-03
+it=      9760		Loss/train:3.001e+00	Time/train:3.584e+00	LR:1.000e-03
+it=      9780		Loss/train:2.768e+00	Time/train:3.597e+00	LR:1.000e-03
+it=      9800		Loss/train:2.463e+00	Time/train:3.621e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      9820		Loss/train:2.246e+00	Time/train:3.567e+00	LR:1.000e-03
+it=      9840		Loss/train:3.811e+00	Time/train:3.555e+00	LR:1.000e-03
+it=      9860		Loss/train:2.959e+00	Time/train:3.524e+00	LR:1.000e-03
+it=      9880		Loss/train:3.457e+00	Time/train:3.577e+00	LR:1.000e-03
+it=      9900		Loss/train:2.383e+00	Time/train:3.654e+00	LR:1.000e-03
+SAVE THE MODEL
+it=      9920		Loss/train:3.577e+00	Time/train:3.707e+00	LR:1.000e-03
+it=      9940		Loss/train:4.180e+00	Time/train:3.608e+00	LR:1.000e-03
+it=      9960		Loss/train:3.448e+00	Time/train:3.575e+00	LR:1.000e-03
+it=      9980		Loss/train:2.653e+00	Time/train:3.564e+00	LR:1.000e-03
+it=     10000		Loss/train:3.523e+00	Time/train:3.651e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     10000		Loss/test:2.034e+00	Time/test:2.906e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     10020		Loss/train:3.880e+00	Time/train:3.559e+00	LR:1.000e-03
+it=     10040		Loss/train:3.206e+00	Time/train:3.583e+00	LR:1.000e-03
+it=     10060		Loss/train:3.369e+00	Time/train:3.602e+00	LR:1.000e-03
+it=     10080		Loss/train:2.953e+00	Time/train:3.560e+00	LR:1.000e-03
+it=     10100		Loss/train:3.167e+00	Time/train:3.573e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     10120		Loss/train:3.187e+00	Time/train:3.578e+00	LR:1.000e-03
+it=     10140		Loss/train:3.583e+00	Time/train:3.602e+00	LR:1.000e-03
+it=     10160		Loss/train:3.069e+00	Time/train:3.569e+00	LR:1.000e-03
+it=     10180		Loss/train:2.961e+00	Time/train:3.581e+00	LR:1.000e-03
+it=     10200		Loss/train:3.541e+00	Time/train:3.629e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     10220		Loss/train:3.720e+00	Time/train:3.614e+00	LR:1.000e-03
+it=     10240		Loss/train:3.033e+00	Time/train:3.605e+00	LR:1.000e-03
+it=     10260		Loss/train:2.653e+00	Time/train:3.657e+00	LR:1.000e-03
+it=     10280		Loss/train:3.674e+00	Time/train:3.666e+00	LR:1.000e-03
+it=     10300		Loss/train:3.126e+00	Time/train:3.702e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     10320		Loss/train:2.591e+00	Time/train:3.595e+00	LR:1.000e-03
+it=     10340		Loss/train:2.789e+00	Time/train:3.620e+00	LR:1.000e-03
+it=     10360		Loss/train:2.897e+00	Time/train:3.603e+00	LR:1.000e-03
+it=     10380		Loss/train:3.258e+00	Time/train:3.592e+00	LR:1.000e-03
+it=     10400		Loss/train:3.597e+00	Time/train:3.586e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     10420		Loss/train:3.297e+00	Time/train:3.563e+00	LR:1.000e-03
+it=     10440		Loss/train:3.547e+00	Time/train:3.540e+00	LR:1.000e-03
+it=     10460		Loss/train:3.138e+00	Time/train:3.566e+00	LR:1.000e-03
+it=     10480		Loss/train:3.047e+00	Time/train:3.575e+00	LR:1.000e-03
+it=     10500		Loss/train:2.870e+00	Time/train:3.642e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     10500		Loss/test:1.654e+00	Time/test:2.914e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     10520		Loss/train:2.965e+00	Time/train:3.629e+00	LR:1.000e-03
+it=     10540		Loss/train:3.316e+00	Time/train:3.606e+00	LR:1.000e-03
+it=     10560		Loss/train:3.057e+00	Time/train:3.586e+00	LR:1.000e-03
+it=     10580		Loss/train:2.505e+00	Time/train:3.560e+00	LR:1.000e-03
+it=     10600		Loss/train:2.817e+00	Time/train:3.529e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     10620		Loss/train:3.215e+00	Time/train:3.657e+00	LR:1.000e-03
+it=     10640		Loss/train:3.479e+00	Time/train:3.671e+00	LR:1.000e-03
+it=     10660		Loss/train:2.946e+00	Time/train:3.602e+00	LR:1.000e-03
+it=     10680		Loss/train:2.458e+00	Time/train:3.610e+00	LR:1.000e-03
+it=     10700		Loss/train:3.139e+00	Time/train:3.631e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     10720		Loss/train:3.439e+00	Time/train:3.626e+00	LR:1.000e-03
+it=     10740		Loss/train:3.826e+00	Time/train:3.579e+00	LR:1.000e-03
+it=     10760		Loss/train:3.252e+00	Time/train:3.600e+00	LR:1.000e-03
+it=     10780		Loss/train:3.324e+00	Time/train:3.606e+00	LR:1.000e-03
+it=     10800		Loss/train:2.899e+00	Time/train:3.640e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     10820		Loss/train:2.680e+00	Time/train:3.617e+00	LR:1.000e-03
+it=     10840		Loss/train:3.440e+00	Time/train:3.621e+00	LR:1.000e-03
+it=     10860		Loss/train:2.969e+00	Time/train:3.562e+00	LR:1.000e-03
+it=     10880		Loss/train:4.394e+00	Time/train:3.644e+00	LR:1.000e-03
+it=     10900		Loss/train:2.706e+00	Time/train:3.625e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     10920		Loss/train:3.150e+00	Time/train:3.533e+00	LR:1.000e-03
+it=     10940		Loss/train:3.655e+00	Time/train:3.596e+00	LR:1.000e-03
+it=     10960		Loss/train:2.845e+00	Time/train:3.554e+00	LR:1.000e-03
+it=     10980		Loss/train:4.004e+00	Time/train:3.541e+00	LR:1.000e-03
+it=     11000		Loss/train:3.413e+00	Time/train:3.605e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     11000		Loss/test:1.197e+00	Time/test:2.907e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     11020		Loss/train:2.689e+00	Time/train:3.602e+00	LR:1.000e-03
+it=     11040		Loss/train:3.122e+00	Time/train:3.622e+00	LR:1.000e-03
+it=     11060		Loss/train:3.183e+00	Time/train:3.633e+00	LR:1.000e-03
+it=     11080		Loss/train:3.223e+00	Time/train:3.597e+00	LR:1.000e-03
+it=     11100		Loss/train:2.845e+00	Time/train:3.591e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     11120		Loss/train:3.291e+00	Time/train:3.630e+00	LR:1.000e-03
+it=     11140		Loss/train:3.116e+00	Time/train:3.624e+00	LR:1.000e-03
+it=     11160		Loss/train:3.101e+00	Time/train:3.593e+00	LR:1.000e-03
+it=     11180		Loss/train:2.501e+00	Time/train:3.632e+00	LR:1.000e-03
+it=     11200		Loss/train:2.474e+00	Time/train:3.634e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     11220		Loss/train:2.951e+00	Time/train:3.569e+00	LR:1.000e-03
+it=     11240		Loss/train:3.450e+00	Time/train:3.591e+00	LR:1.000e-03
+it=     11260		Loss/train:2.946e+00	Time/train:3.574e+00	LR:1.000e-03
+it=     11280		Loss/train:3.058e+00	Time/train:3.624e+00	LR:1.000e-03
+it=     11300		Loss/train:4.027e+00	Time/train:3.590e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     11320		Loss/train:3.492e+00	Time/train:3.576e+00	LR:1.000e-03
+it=     11340		Loss/train:2.620e+00	Time/train:3.592e+00	LR:1.000e-03
+it=     11360		Loss/train:3.347e+00	Time/train:3.564e+00	LR:1.000e-03
+it=     11380		Loss/train:3.313e+00	Time/train:3.589e+00	LR:1.000e-03
+it=     11400		Loss/train:2.749e+00	Time/train:3.595e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     11420		Loss/train:2.957e+00	Time/train:3.611e+00	LR:1.000e-03
+it=     11440		Loss/train:3.125e+00	Time/train:3.534e+00	LR:1.000e-03
+it=     11460		Loss/train:3.898e+00	Time/train:3.580e+00	LR:1.000e-03
+it=     11480		Loss/train:2.985e+00	Time/train:3.555e+00	LR:1.000e-03
+it=     11500		Loss/train:3.263e+00	Time/train:3.572e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     11500		Loss/test:1.597e+00	Time/test:3.343e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     11520		Loss/train:3.002e+00	Time/train:3.624e+00	LR:1.000e-03
+it=     11540		Loss/train:3.105e+00	Time/train:3.590e+00	LR:1.000e-03
+it=     11560		Loss/train:2.934e+00	Time/train:3.604e+00	LR:1.000e-03
+it=     11580		Loss/train:3.288e+00	Time/train:3.599e+00	LR:1.000e-03
+it=     11600		Loss/train:4.203e+00	Time/train:3.574e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     11620		Loss/train:3.084e+00	Time/train:3.606e+00	LR:1.000e-03
+it=     11640		Loss/train:3.412e+00	Time/train:3.598e+00	LR:1.000e-03
+it=     11660		Loss/train:3.348e+00	Time/train:3.596e+00	LR:1.000e-03
+it=     11680		Loss/train:2.992e+00	Time/train:3.581e+00	LR:1.000e-03
+it=     11700		Loss/train:3.056e+00	Time/train:3.586e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     11720		Loss/train:2.941e+00	Time/train:3.550e+00	LR:1.000e-03
+it=     11740		Loss/train:2.474e+00	Time/train:3.620e+00	LR:1.000e-03
+it=     11760		Loss/train:2.983e+00	Time/train:3.547e+00	LR:1.000e-03
+it=     11780		Loss/train:2.537e+00	Time/train:3.655e+00	LR:1.000e-03
+it=     11800		Loss/train:3.666e+00	Time/train:3.681e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     11820		Loss/train:3.223e+00	Time/train:3.530e+00	LR:1.000e-03
+it=     11840		Loss/train:3.145e+00	Time/train:3.571e+00	LR:1.000e-03
+it=     11860		Loss/train:3.578e+00	Time/train:3.607e+00	LR:1.000e-03
+it=     11880		Loss/train:2.912e+00	Time/train:3.569e+00	LR:1.000e-03
+it=     11900		Loss/train:2.920e+00	Time/train:3.640e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     11920		Loss/train:2.941e+00	Time/train:3.683e+00	LR:1.000e-03
+it=     11940		Loss/train:2.711e+00	Time/train:3.638e+00	LR:1.000e-03
+it=     11960		Loss/train:2.990e+00	Time/train:3.560e+00	LR:1.000e-03
+it=     11980		Loss/train:2.731e+00	Time/train:3.590e+00	LR:1.000e-03
+it=     12000		Loss/train:3.473e+00	Time/train:3.608e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     12000		Loss/test:1.521e+00	Time/test:2.852e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     12020		Loss/train:2.709e+00	Time/train:3.580e+00	LR:1.000e-03
+it=     12040		Loss/train:2.984e+00	Time/train:3.580e+00	LR:1.000e-03
+it=     12060		Loss/train:3.388e+00	Time/train:3.634e+00	LR:1.000e-03
+it=     12080		Loss/train:2.862e+00	Time/train:3.569e+00	LR:1.000e-03
+it=     12100		Loss/train:2.795e+00	Time/train:3.574e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     12120		Loss/train:3.232e+00	Time/train:3.550e+00	LR:1.000e-03
+it=     12140		Loss/train:2.990e+00	Time/train:3.581e+00	LR:1.000e-03
+it=     12160		Loss/train:3.058e+00	Time/train:3.598e+00	LR:1.000e-03
+it=     12180		Loss/train:3.319e+00	Time/train:3.572e+00	LR:1.000e-03
+it=     12200		Loss/train:3.366e+00	Time/train:3.670e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     12220		Loss/train:2.775e+00	Time/train:3.537e+00	LR:1.000e-03
+it=     12240		Loss/train:3.720e+00	Time/train:3.557e+00	LR:1.000e-03
+it=     12260		Loss/train:2.920e+00	Time/train:3.670e+00	LR:1.000e-03
+it=     12280		Loss/train:3.300e+00	Time/train:3.657e+00	LR:1.000e-03
+it=     12300		Loss/train:3.001e+00	Time/train:3.714e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     12320		Loss/train:2.883e+00	Time/train:3.596e+00	LR:1.000e-03
+it=     12340		Loss/train:3.137e+00	Time/train:3.623e+00	LR:1.000e-03
+it=     12360		Loss/train:3.032e+00	Time/train:3.607e+00	LR:1.000e-03
+it=     12380		Loss/train:2.899e+00	Time/train:3.563e+00	LR:1.000e-03
+it=     12400		Loss/train:2.665e+00	Time/train:3.578e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     12420		Loss/train:3.125e+00	Time/train:3.581e+00	LR:1.000e-03
+it=     12440		Loss/train:3.445e+00	Time/train:3.636e+00	LR:1.000e-03
+it=     12460		Loss/train:2.897e+00	Time/train:3.651e+00	LR:1.000e-03
+it=     12480		Loss/train:3.016e+00	Time/train:3.623e+00	LR:1.000e-03
+it=     12500		Loss/train:2.758e+00	Time/train:3.593e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     12500		Loss/test:1.489e+00	Time/test:2.827e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     12520		Loss/train:3.341e+00	Time/train:3.570e+00	LR:1.000e-03
+it=     12540		Loss/train:2.994e+00	Time/train:3.550e+00	LR:1.000e-03
+it=     12560		Loss/train:2.769e+00	Time/train:3.564e+00	LR:1.000e-03
+it=     12580		Loss/train:2.942e+00	Time/train:3.600e+00	LR:1.000e-03
+it=     12600		Loss/train:3.276e+00	Time/train:3.550e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     12620		Loss/train:3.030e+00	Time/train:3.557e+00	LR:1.000e-03
+it=     12640		Loss/train:2.602e+00	Time/train:3.604e+00	LR:1.000e-03
+it=     12660		Loss/train:2.482e+00	Time/train:3.703e+00	LR:1.000e-03
+it=     12680		Loss/train:2.759e+00	Time/train:3.711e+00	LR:1.000e-03
+it=     12700		Loss/train:3.974e+00	Time/train:3.584e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     12720		Loss/train:2.816e+00	Time/train:3.594e+00	LR:1.000e-03
+it=     12740		Loss/train:2.784e+00	Time/train:3.635e+00	LR:1.000e-03
+it=     12760		Loss/train:3.298e+00	Time/train:3.626e+00	LR:1.000e-03
+it=     12780		Loss/train:2.373e+00	Time/train:3.591e+00	LR:1.000e-03
+it=     12800		Loss/train:3.384e+00	Time/train:3.577e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     12820		Loss/train:3.099e+00	Time/train:3.612e+00	LR:1.000e-03
+it=     12840		Loss/train:3.073e+00	Time/train:3.614e+00	LR:1.000e-03
+it=     12860		Loss/train:3.097e+00	Time/train:3.637e+00	LR:1.000e-03
+it=     12880		Loss/train:3.258e+00	Time/train:3.566e+00	LR:1.000e-03
+it=     12900		Loss/train:3.211e+00	Time/train:3.565e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     12920		Loss/train:2.780e+00	Time/train:3.611e+00	LR:1.000e-03
+it=     12940		Loss/train:2.757e+00	Time/train:3.550e+00	LR:1.000e-03
+it=     12960		Loss/train:3.544e+00	Time/train:3.571e+00	LR:1.000e-03
+it=     12980		Loss/train:2.608e+00	Time/train:3.593e+00	LR:1.000e-03
+it=     13000		Loss/train:2.761e+00	Time/train:3.586e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     13000		Loss/test:2.023e+00	Time/test:2.839e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     13020		Loss/train:2.723e+00	Time/train:3.571e+00	LR:1.000e-03
+it=     13040		Loss/train:2.896e+00	Time/train:3.597e+00	LR:1.000e-03
+it=     13060		Loss/train:2.889e+00	Time/train:3.577e+00	LR:1.000e-03
+it=     13080		Loss/train:2.807e+00	Time/train:3.627e+00	LR:1.000e-03
+it=     13100		Loss/train:2.443e+00	Time/train:3.653e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     13120		Loss/train:3.229e+00	Time/train:3.607e+00	LR:1.000e-03
+it=     13140		Loss/train:2.790e+00	Time/train:3.671e+00	LR:1.000e-03
+it=     13160		Loss/train:2.907e+00	Time/train:3.585e+00	LR:1.000e-03
+it=     13180		Loss/train:2.740e+00	Time/train:3.593e+00	LR:1.000e-03
+it=     13200		Loss/train:3.373e+00	Time/train:3.557e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     13220		Loss/train:2.991e+00	Time/train:3.637e+00	LR:1.000e-03
+it=     13240		Loss/train:3.208e+00	Time/train:3.674e+00	LR:1.000e-03
+it=     13260		Loss/train:2.595e+00	Time/train:3.609e+00	LR:1.000e-03
+it=     13280		Loss/train:2.928e+00	Time/train:3.596e+00	LR:1.000e-03
+it=     13300		Loss/train:3.176e+00	Time/train:3.590e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     13320		Loss/train:3.283e+00	Time/train:3.589e+00	LR:1.000e-03
+it=     13340		Loss/train:2.684e+00	Time/train:3.576e+00	LR:1.000e-03
+it=     13360		Loss/train:2.782e+00	Time/train:3.577e+00	LR:1.000e-03
+it=     13380		Loss/train:4.019e+00	Time/train:3.561e+00	LR:1.000e-03
+it=     13400		Loss/train:3.012e+00	Time/train:3.567e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     13420		Loss/train:3.276e+00	Time/train:3.594e+00	LR:1.000e-03
+it=     13440		Loss/train:2.448e+00	Time/train:3.576e+00	LR:1.000e-03
+it=     13460		Loss/train:2.648e+00	Time/train:3.618e+00	LR:1.000e-03
+it=     13480		Loss/train:2.791e+00	Time/train:3.582e+00	LR:1.000e-03
+it=     13500		Loss/train:2.669e+00	Time/train:3.582e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     13500		Loss/test:9.612e-01	Time/test:2.835e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     13520		Loss/train:3.093e+00	Time/train:3.600e+00	LR:1.000e-03
+it=     13540		Loss/train:3.536e+00	Time/train:3.729e+00	LR:1.000e-03
+it=     13560		Loss/train:2.692e+00	Time/train:3.710e+00	LR:1.000e-03
+it=     13580		Loss/train:2.904e+00	Time/train:3.589e+00	LR:1.000e-03
+it=     13600		Loss/train:2.846e+00	Time/train:3.569e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     13620		Loss/train:2.825e+00	Time/train:3.609e+00	LR:1.000e-03
+it=     13640		Loss/train:2.914e+00	Time/train:3.591e+00	LR:1.000e-03
+it=     13660		Loss/train:2.634e+00	Time/train:3.621e+00	LR:1.000e-03
+it=     13680		Loss/train:2.614e+00	Time/train:3.569e+00	LR:1.000e-03
+it=     13700		Loss/train:3.014e+00	Time/train:3.533e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     13720		Loss/train:2.869e+00	Time/train:3.585e+00	LR:1.000e-03
+it=     13740		Loss/train:2.952e+00	Time/train:3.584e+00	LR:1.000e-03
+it=     13760		Loss/train:2.858e+00	Time/train:3.608e+00	LR:1.000e-03
+it=     13780		Loss/train:2.941e+00	Time/train:3.568e+00	LR:1.000e-03
+it=     13800		Loss/train:2.940e+00	Time/train:3.568e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     13820		Loss/train:2.883e+00	Time/train:3.584e+00	LR:1.000e-03
+it=     13840		Loss/train:3.128e+00	Time/train:3.564e+00	LR:1.000e-03
+it=     13860		Loss/train:2.739e+00	Time/train:3.582e+00	LR:1.000e-03
+it=     13880		Loss/train:2.911e+00	Time/train:3.578e+00	LR:1.000e-03
+it=     13900		Loss/train:2.887e+00	Time/train:3.610e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     13920		Loss/train:3.504e+00	Time/train:3.581e+00	LR:1.000e-03
+it=     13940		Loss/train:4.051e+00	Time/train:3.563e+00	LR:1.000e-03
+it=     13960		Loss/train:2.392e+00	Time/train:3.555e+00	LR:1.000e-03
+it=     13980		Loss/train:2.836e+00	Time/train:3.525e+00	LR:1.000e-03
+it=     14000		Loss/train:3.494e+00	Time/train:3.582e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     14000		Loss/test:2.991e-01	Time/test:3.269e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     14020		Loss/train:2.461e+00	Time/train:3.580e+00	LR:1.000e-03
+it=     14040		Loss/train:2.777e+00	Time/train:3.600e+00	LR:1.000e-03
+it=     14060		Loss/train:2.741e+00	Time/train:3.600e+00	LR:1.000e-03
+it=     14080		Loss/train:2.979e+00	Time/train:3.603e+00	LR:1.000e-03
+it=     14100		Loss/train:2.691e+00	Time/train:3.595e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     14120		Loss/train:2.558e+00	Time/train:3.608e+00	LR:1.000e-03
+it=     14140		Loss/train:3.027e+00	Time/train:3.551e+00	LR:1.000e-03
+it=     14160		Loss/train:2.856e+00	Time/train:3.616e+00	LR:1.000e-03
+it=     14180		Loss/train:2.947e+00	Time/train:3.592e+00	LR:1.000e-03
+it=     14200		Loss/train:3.022e+00	Time/train:3.581e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     14220		Loss/train:2.950e+00	Time/train:3.556e+00	LR:1.000e-03
+it=     14240		Loss/train:2.777e+00	Time/train:3.633e+00	LR:1.000e-03
+it=     14260		Loss/train:2.720e+00	Time/train:3.611e+00	LR:1.000e-03
+it=     14280		Loss/train:2.898e+00	Time/train:3.621e+00	LR:1.000e-03
+it=     14300		Loss/train:2.732e+00	Time/train:3.638e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     14320		Loss/train:2.547e+00	Time/train:3.572e+00	LR:1.000e-03
+it=     14340		Loss/train:2.877e+00	Time/train:3.566e+00	LR:1.000e-03
+it=     14360		Loss/train:2.788e+00	Time/train:3.591e+00	LR:1.000e-03
+it=     14380		Loss/train:2.730e+00	Time/train:3.562e+00	LR:1.000e-03
+it=     14400		Loss/train:2.636e+00	Time/train:3.619e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     14420		Loss/train:2.786e+00	Time/train:3.663e+00	LR:1.000e-03
+it=     14440		Loss/train:2.721e+00	Time/train:3.563e+00	LR:1.000e-03
+it=     14460		Loss/train:2.557e+00	Time/train:3.571e+00	LR:1.000e-03
+it=     14480		Loss/train:2.775e+00	Time/train:3.579e+00	LR:1.000e-03
+it=     14500		Loss/train:2.990e+00	Time/train:3.675e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     14500		Loss/test:1.128e+00	Time/test:2.820e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     14520		Loss/train:2.704e+00	Time/train:3.537e+00	LR:1.000e-03
+it=     14540		Loss/train:2.645e+00	Time/train:3.537e+00	LR:1.000e-03
+it=     14560		Loss/train:3.142e+00	Time/train:3.569e+00	LR:1.000e-03
+it=     14580		Loss/train:2.785e+00	Time/train:3.595e+00	LR:1.000e-03
+it=     14600		Loss/train:3.330e+00	Time/train:3.618e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     14620		Loss/train:2.773e+00	Time/train:3.564e+00	LR:1.000e-03
+it=     14640		Loss/train:2.883e+00	Time/train:3.568e+00	LR:1.000e-03
+it=     14660		Loss/train:2.889e+00	Time/train:3.580e+00	LR:1.000e-03
+it=     14680		Loss/train:2.885e+00	Time/train:3.564e+00	LR:1.000e-03
+it=     14700		Loss/train:3.127e+00	Time/train:3.568e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     14720		Loss/train:2.826e+00	Time/train:3.558e+00	LR:1.000e-03
+it=     14740		Loss/train:2.899e+00	Time/train:3.573e+00	LR:1.000e-03
+it=     14760		Loss/train:2.762e+00	Time/train:3.633e+00	LR:1.000e-03
+it=     14780		Loss/train:2.697e+00	Time/train:3.717e+00	LR:1.000e-03
+it=     14800		Loss/train:2.623e+00	Time/train:3.622e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     14820		Loss/train:2.540e+00	Time/train:3.569e+00	LR:1.000e-03
+it=     14840		Loss/train:3.192e+00	Time/train:3.608e+00	LR:1.000e-03
+it=     14860		Loss/train:2.770e+00	Time/train:3.606e+00	LR:1.000e-03
+it=     14880		Loss/train:2.226e+00	Time/train:3.596e+00	LR:1.000e-03
+it=     14900		Loss/train:2.997e+00	Time/train:3.613e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     14920		Loss/train:2.745e+00	Time/train:3.659e+00	LR:1.000e-03
+it=     14940		Loss/train:2.786e+00	Time/train:3.587e+00	LR:1.000e-03
+it=     14960		Loss/train:2.461e+00	Time/train:3.575e+00	LR:1.000e-03
+it=     14980		Loss/train:2.707e+00	Time/train:3.588e+00	LR:1.000e-03
+it=     15000		Loss/train:2.366e+00	Time/train:3.602e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     15000		Loss/test:1.779e+00	Time/test:2.893e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     15020		Loss/train:2.436e+00	Time/train:3.620e+00	LR:1.000e-03
+it=     15040		Loss/train:2.406e+00	Time/train:3.606e+00	LR:1.000e-03
+it=     15060		Loss/train:3.310e+00	Time/train:3.579e+00	LR:1.000e-03
+it=     15080		Loss/train:2.221e+00	Time/train:3.596e+00	LR:1.000e-03
+it=     15100		Loss/train:2.933e+00	Time/train:3.573e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     15120		Loss/train:2.812e+00	Time/train:3.610e+00	LR:1.000e-03
+it=     15140		Loss/train:2.273e+00	Time/train:3.765e+00	LR:1.000e-03
+it=     15160		Loss/train:3.148e+00	Time/train:3.630e+00	LR:1.000e-03
+it=     15180		Loss/train:2.894e+00	Time/train:3.552e+00	LR:1.000e-03
+it=     15200		Loss/train:2.780e+00	Time/train:3.604e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     15220		Loss/train:3.341e+00	Time/train:3.626e+00	LR:1.000e-03
+it=     15240		Loss/train:2.529e+00	Time/train:3.640e+00	LR:1.000e-03
+it=     15260		Loss/train:2.418e+00	Time/train:3.629e+00	LR:1.000e-03
+it=     15280		Loss/train:3.368e+00	Time/train:3.591e+00	LR:1.000e-03
+it=     15300		Loss/train:2.432e+00	Time/train:3.643e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     15320		Loss/train:2.607e+00	Time/train:3.673e+00	LR:1.000e-03
+it=     15340		Loss/train:2.837e+00	Time/train:3.602e+00	LR:1.000e-03
+it=     15360		Loss/train:2.599e+00	Time/train:3.563e+00	LR:1.000e-03
+it=     15380		Loss/train:2.831e+00	Time/train:3.584e+00	LR:1.000e-03
+it=     15400		Loss/train:2.409e+00	Time/train:3.619e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     15420		Loss/train:3.389e+00	Time/train:3.589e+00	LR:1.000e-03
+it=     15440		Loss/train:2.281e+00	Time/train:3.609e+00	LR:1.000e-03
+it=     15460		Loss/train:2.481e+00	Time/train:3.547e+00	LR:1.000e-03
+it=     15480		Loss/train:2.720e+00	Time/train:3.562e+00	LR:1.000e-03
+it=     15500		Loss/train:2.572e+00	Time/train:3.557e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     15500		Loss/test:1.775e+00	Time/test:2.849e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     15520		Loss/train:3.080e+00	Time/train:3.606e+00	LR:1.000e-03
+it=     15540		Loss/train:2.806e+00	Time/train:3.681e+00	LR:1.000e-03
+it=     15560		Loss/train:2.918e+00	Time/train:3.662e+00	LR:1.000e-03
+it=     15580		Loss/train:2.576e+00	Time/train:3.571e+00	LR:1.000e-03
+it=     15600		Loss/train:2.364e+00	Time/train:3.562e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     15620		Loss/train:3.376e+00	Time/train:3.627e+00	LR:1.000e-03
+it=     15640		Loss/train:2.768e+00	Time/train:3.576e+00	LR:1.000e-03
+it=     15660		Loss/train:2.980e+00	Time/train:3.591e+00	LR:1.000e-03
+it=     15680		Loss/train:3.212e+00	Time/train:3.636e+00	LR:1.000e-03
+it=     15700		Loss/train:3.040e+00	Time/train:3.590e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     15720		Loss/train:2.359e+00	Time/train:3.617e+00	LR:1.000e-03
+it=     15740		Loss/train:3.183e+00	Time/train:3.578e+00	LR:1.000e-03
+it=     15760		Loss/train:2.090e+00	Time/train:3.561e+00	LR:1.000e-03
+it=     15780		Loss/train:2.519e+00	Time/train:3.577e+00	LR:1.000e-03
+it=     15800		Loss/train:3.470e+00	Time/train:3.576e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     15820		Loss/train:3.086e+00	Time/train:3.594e+00	LR:1.000e-03
+it=     15840		Loss/train:2.635e+00	Time/train:3.582e+00	LR:1.000e-03
+it=     15860		Loss/train:2.849e+00	Time/train:3.606e+00	LR:1.000e-03
+it=     15880		Loss/train:2.633e+00	Time/train:3.563e+00	LR:1.000e-03
+it=     15900		Loss/train:2.526e+00	Time/train:3.572e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     15920		Loss/train:2.628e+00	Time/train:3.558e+00	LR:1.000e-03
+it=     15940		Loss/train:2.551e+00	Time/train:3.560e+00	LR:1.000e-03
+it=     15960		Loss/train:2.353e+00	Time/train:3.587e+00	LR:1.000e-03
+it=     15980		Loss/train:3.005e+00	Time/train:3.599e+00	LR:1.000e-03
+it=     16000		Loss/train:2.295e+00	Time/train:3.544e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     16000		Loss/test:2.075e+00	Time/test:3.326e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     16020		Loss/train:3.327e+00	Time/train:3.673e+00	LR:1.000e-03
+it=     16040		Loss/train:2.573e+00	Time/train:3.607e+00	LR:1.000e-03
+it=     16060		Loss/train:2.347e+00	Time/train:3.566e+00	LR:1.000e-03
+it=     16080		Loss/train:2.639e+00	Time/train:3.599e+00	LR:1.000e-03
+it=     16100		Loss/train:2.406e+00	Time/train:3.602e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     16120		Loss/train:2.630e+00	Time/train:3.618e+00	LR:1.000e-03
+it=     16140		Loss/train:2.281e+00	Time/train:3.609e+00	LR:1.000e-03
+it=     16160		Loss/train:2.777e+00	Time/train:3.623e+00	LR:1.000e-03
+it=     16180		Loss/train:2.835e+00	Time/train:3.631e+00	LR:1.000e-03
+it=     16200		Loss/train:2.385e+00	Time/train:3.587e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     16220		Loss/train:2.993e+00	Time/train:3.571e+00	LR:1.000e-03
+it=     16240		Loss/train:2.666e+00	Time/train:3.616e+00	LR:1.000e-03
+it=     16260		Loss/train:2.599e+00	Time/train:3.590e+00	LR:1.000e-03
+it=     16280		Loss/train:2.553e+00	Time/train:3.651e+00	LR:1.000e-03
+it=     16300		Loss/train:3.153e+00	Time/train:3.601e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     16320		Loss/train:3.352e+00	Time/train:3.614e+00	LR:1.000e-03
+it=     16340		Loss/train:2.783e+00	Time/train:3.687e+00	LR:1.000e-03
+it=     16360		Loss/train:2.634e+00	Time/train:3.574e+00	LR:1.000e-03
+it=     16380		Loss/train:2.801e+00	Time/train:3.685e+00	LR:1.000e-03
+it=     16400		Loss/train:2.919e+00	Time/train:3.615e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     16420		Loss/train:2.902e+00	Time/train:3.574e+00	LR:1.000e-03
+it=     16440		Loss/train:2.822e+00	Time/train:3.581e+00	LR:1.000e-03
+it=     16460		Loss/train:2.872e+00	Time/train:3.630e+00	LR:1.000e-03
+it=     16480		Loss/train:3.014e+00	Time/train:3.767e+00	LR:1.000e-03
+it=     16500		Loss/train:2.272e+00	Time/train:3.710e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     16500		Loss/test:1.014e+00	Time/test:2.876e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     16520		Loss/train:2.424e+00	Time/train:3.679e+00	LR:1.000e-03
+it=     16540		Loss/train:2.721e+00	Time/train:3.617e+00	LR:1.000e-03
+it=     16560		Loss/train:2.493e+00	Time/train:3.598e+00	LR:1.000e-03
+it=     16580		Loss/train:3.163e+00	Time/train:3.569e+00	LR:1.000e-03
+it=     16600		Loss/train:2.891e+00	Time/train:3.623e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     16620		Loss/train:3.054e+00	Time/train:3.608e+00	LR:1.000e-03
+it=     16640		Loss/train:3.362e+00	Time/train:3.559e+00	LR:1.000e-03
+it=     16660		Loss/train:2.929e+00	Time/train:3.592e+00	LR:1.000e-03
+it=     16680		Loss/train:2.669e+00	Time/train:3.683e+00	LR:1.000e-03
+it=     16700		Loss/train:2.724e+00	Time/train:3.610e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     16720		Loss/train:2.537e+00	Time/train:3.636e+00	LR:1.000e-03
+it=     16740		Loss/train:2.965e+00	Time/train:3.588e+00	LR:1.000e-03
+it=     16760		Loss/train:2.444e+00	Time/train:3.649e+00	LR:1.000e-03
+it=     16780		Loss/train:2.789e+00	Time/train:3.576e+00	LR:1.000e-03
+it=     16800		Loss/train:2.862e+00	Time/train:3.621e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     16820		Loss/train:2.640e+00	Time/train:3.655e+00	LR:1.000e-03
+it=     16840		Loss/train:2.550e+00	Time/train:3.752e+00	LR:1.000e-03
+it=     16860		Loss/train:3.210e+00	Time/train:3.669e+00	LR:1.000e-03
+it=     16880		Loss/train:2.509e+00	Time/train:3.734e+00	LR:1.000e-03
+it=     16900		Loss/train:2.864e+00	Time/train:3.660e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     16920		Loss/train:2.904e+00	Time/train:3.610e+00	LR:1.000e-03
+it=     16940		Loss/train:2.234e+00	Time/train:3.652e+00	LR:1.000e-03
+it=     16960		Loss/train:3.099e+00	Time/train:3.622e+00	LR:1.000e-03
+it=     16980		Loss/train:2.613e+00	Time/train:3.629e+00	LR:1.000e-03
+it=     17000		Loss/train:2.568e+00	Time/train:3.645e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     17000		Loss/test:2.315e+00	Time/test:2.912e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     17020		Loss/train:2.816e+00	Time/train:3.636e+00	LR:1.000e-03
+it=     17040		Loss/train:2.968e+00	Time/train:3.565e+00	LR:1.000e-03
+it=     17060		Loss/train:3.367e+00	Time/train:3.578e+00	LR:1.000e-03
+it=     17080		Loss/train:2.716e+00	Time/train:3.607e+00	LR:1.000e-03
+it=     17100		Loss/train:2.501e+00	Time/train:3.597e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     17120		Loss/train:3.050e+00	Time/train:3.585e+00	LR:1.000e-03
+it=     17140		Loss/train:3.212e+00	Time/train:3.544e+00	LR:1.000e-03
+it=     17160		Loss/train:2.717e+00	Time/train:3.620e+00	LR:1.000e-03
+it=     17180		Loss/train:2.772e+00	Time/train:3.646e+00	LR:1.000e-03
+it=     17200		Loss/train:2.333e+00	Time/train:3.716e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     17220		Loss/train:2.421e+00	Time/train:3.612e+00	LR:1.000e-03
+it=     17240		Loss/train:2.324e+00	Time/train:3.654e+00	LR:1.000e-03
+it=     17260		Loss/train:2.704e+00	Time/train:3.664e+00	LR:1.000e-03
+it=     17280		Loss/train:2.811e+00	Time/train:3.642e+00	LR:1.000e-03
+it=     17300		Loss/train:2.497e+00	Time/train:3.623e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     17320		Loss/train:2.765e+00	Time/train:3.590e+00	LR:1.000e-03
+it=     17340		Loss/train:2.439e+00	Time/train:3.580e+00	LR:1.000e-03
+it=     17360		Loss/train:2.556e+00	Time/train:3.585e+00	LR:1.000e-03
+it=     17380		Loss/train:3.536e+00	Time/train:3.589e+00	LR:1.000e-03
+it=     17400		Loss/train:2.866e+00	Time/train:3.584e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     17420		Loss/train:2.782e+00	Time/train:3.635e+00	LR:1.000e-03
+it=     17440		Loss/train:3.179e+00	Time/train:3.644e+00	LR:1.000e-03
+it=     17460		Loss/train:2.631e+00	Time/train:3.601e+00	LR:1.000e-03
+it=     17480		Loss/train:2.802e+00	Time/train:3.574e+00	LR:1.000e-03
+it=     17500		Loss/train:2.836e+00	Time/train:3.560e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     17500		Loss/test:1.762e+00	Time/test:2.805e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     17520		Loss/train:2.788e+00	Time/train:3.571e+00	LR:1.000e-03
+it=     17540		Loss/train:2.329e+00	Time/train:3.576e+00	LR:1.000e-03
+it=     17560		Loss/train:2.299e+00	Time/train:3.663e+00	LR:1.000e-03
+it=     17580		Loss/train:2.591e+00	Time/train:3.829e+00	LR:1.000e-03
+it=     17600		Loss/train:2.903e+00	Time/train:3.625e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     17620		Loss/train:2.813e+00	Time/train:3.616e+00	LR:1.000e-03
+it=     17640		Loss/train:2.290e+00	Time/train:3.625e+00	LR:1.000e-03
+it=     17660		Loss/train:2.378e+00	Time/train:3.596e+00	LR:1.000e-03
+it=     17680		Loss/train:2.259e+00	Time/train:3.644e+00	LR:1.000e-03
+it=     17700		Loss/train:2.524e+00	Time/train:3.600e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     17720		Loss/train:2.549e+00	Time/train:3.566e+00	LR:1.000e-03
+it=     17740		Loss/train:2.639e+00	Time/train:3.602e+00	LR:1.000e-03
+it=     17760		Loss/train:2.781e+00	Time/train:3.540e+00	LR:1.000e-03
+it=     17780		Loss/train:3.321e+00	Time/train:3.596e+00	LR:1.000e-03
+it=     17800		Loss/train:2.904e+00	Time/train:3.580e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     17820		Loss/train:2.569e+00	Time/train:3.637e+00	LR:1.000e-03
+it=     17840		Loss/train:2.880e+00	Time/train:3.618e+00	LR:1.000e-03
+it=     17860		Loss/train:2.448e+00	Time/train:3.555e+00	LR:1.000e-03
+it=     17880		Loss/train:2.853e+00	Time/train:3.548e+00	LR:1.000e-03
+it=     17900		Loss/train:2.815e+00	Time/train:3.564e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     17920		Loss/train:2.878e+00	Time/train:3.622e+00	LR:1.000e-03
+it=     17940		Loss/train:2.513e+00	Time/train:3.585e+00	LR:1.000e-03
+it=     17960		Loss/train:2.484e+00	Time/train:3.611e+00	LR:1.000e-03
+it=     17980		Loss/train:2.717e+00	Time/train:3.582e+00	LR:1.000e-03
+it=     18000		Loss/train:2.747e+00	Time/train:3.562e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     18000		Loss/test:1.262e+00	Time/test:3.195e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     18020		Loss/train:2.821e+00	Time/train:3.607e+00	LR:1.000e-03
+it=     18040		Loss/train:2.630e+00	Time/train:3.644e+00	LR:1.000e-03
+it=     18060		Loss/train:3.005e+00	Time/train:3.624e+00	LR:1.000e-03
+it=     18080		Loss/train:2.059e+00	Time/train:3.631e+00	LR:1.000e-03
+it=     18100		Loss/train:2.604e+00	Time/train:3.569e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     18120		Loss/train:2.615e+00	Time/train:3.598e+00	LR:1.000e-03
+it=     18140		Loss/train:2.870e+00	Time/train:3.561e+00	LR:1.000e-03
+it=     18160		Loss/train:2.382e+00	Time/train:3.595e+00	LR:1.000e-03
+it=     18180		Loss/train:2.804e+00	Time/train:3.579e+00	LR:1.000e-03
+it=     18200		Loss/train:3.398e+00	Time/train:3.610e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     18220		Loss/train:2.481e+00	Time/train:3.618e+00	LR:1.000e-03
+it=     18240		Loss/train:2.477e+00	Time/train:3.564e+00	LR:1.000e-03
+it=     18260		Loss/train:2.773e+00	Time/train:3.588e+00	LR:1.000e-03
+it=     18280		Loss/train:2.397e+00	Time/train:3.626e+00	LR:1.000e-03
+it=     18300		Loss/train:2.378e+00	Time/train:3.555e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     18320		Loss/train:3.357e+00	Time/train:3.593e+00	LR:1.000e-03
+it=     18340		Loss/train:2.837e+00	Time/train:3.584e+00	LR:1.000e-03
+it=     18360		Loss/train:2.151e+00	Time/train:3.588e+00	LR:1.000e-03
+it=     18380		Loss/train:2.463e+00	Time/train:3.596e+00	LR:1.000e-03
+it=     18400		Loss/train:2.618e+00	Time/train:3.578e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     18420		Loss/train:2.491e+00	Time/train:3.577e+00	LR:1.000e-03
+it=     18440		Loss/train:2.736e+00	Time/train:3.539e+00	LR:1.000e-03
+it=     18460		Loss/train:2.483e+00	Time/train:3.667e+00	LR:1.000e-03
+it=     18480		Loss/train:3.002e+00	Time/train:3.591e+00	LR:1.000e-03
+it=     18500		Loss/train:3.034e+00	Time/train:3.564e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     18500		Loss/test:2.133e+00	Time/test:3.175e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     18520		Loss/train:2.936e+00	Time/train:3.644e+00	LR:1.000e-03
+it=     18540		Loss/train:2.763e+00	Time/train:3.562e+00	LR:1.000e-03
+it=     18560		Loss/train:2.647e+00	Time/train:3.663e+00	LR:1.000e-03
+it=     18580		Loss/train:2.758e+00	Time/train:3.594e+00	LR:1.000e-03
+it=     18600		Loss/train:2.252e+00	Time/train:3.593e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     18620		Loss/train:3.009e+00	Time/train:3.645e+00	LR:1.000e-03
+it=     18640		Loss/train:2.956e+00	Time/train:3.589e+00	LR:1.000e-03
+it=     18660		Loss/train:2.724e+00	Time/train:3.575e+00	LR:1.000e-03
+it=     18680		Loss/train:3.305e+00	Time/train:3.594e+00	LR:1.000e-03
+it=     18700		Loss/train:3.082e+00	Time/train:3.626e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     18720		Loss/train:2.581e+00	Time/train:3.561e+00	LR:1.000e-03
+it=     18740		Loss/train:2.981e+00	Time/train:3.584e+00	LR:1.000e-03
+it=     18760		Loss/train:2.440e+00	Time/train:3.671e+00	LR:1.000e-03
+it=     18780		Loss/train:2.408e+00	Time/train:3.610e+00	LR:1.000e-03
+it=     18800		Loss/train:2.578e+00	Time/train:3.605e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     18820		Loss/train:2.872e+00	Time/train:3.637e+00	LR:1.000e-03
+it=     18840		Loss/train:2.554e+00	Time/train:3.584e+00	LR:1.000e-03
+it=     18860		Loss/train:2.395e+00	Time/train:3.551e+00	LR:1.000e-03
+it=     18880		Loss/train:2.540e+00	Time/train:3.687e+00	LR:1.000e-03
+it=     18900		Loss/train:3.118e+00	Time/train:3.655e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     18920		Loss/train:2.344e+00	Time/train:3.624e+00	LR:1.000e-03
+it=     18940		Loss/train:3.010e+00	Time/train:3.635e+00	LR:1.000e-03
+it=     18960		Loss/train:3.154e+00	Time/train:3.598e+00	LR:1.000e-03
+it=     18980		Loss/train:2.551e+00	Time/train:3.634e+00	LR:1.000e-03
+it=     19000		Loss/train:2.774e+00	Time/train:3.607e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     19000		Loss/test:1.277e+00	Time/test:2.852e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     19020		Loss/train:2.383e+00	Time/train:3.612e+00	LR:1.000e-03
+it=     19040		Loss/train:2.906e+00	Time/train:3.642e+00	LR:1.000e-03
+it=     19060		Loss/train:3.496e+00	Time/train:3.615e+00	LR:1.000e-03
+it=     19080		Loss/train:2.681e+00	Time/train:3.615e+00	LR:1.000e-03
+it=     19100		Loss/train:2.286e+00	Time/train:3.598e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     19120		Loss/train:2.879e+00	Time/train:3.612e+00	LR:1.000e-03
+it=     19140		Loss/train:2.430e+00	Time/train:3.555e+00	LR:1.000e-03
+it=     19160		Loss/train:2.506e+00	Time/train:3.618e+00	LR:1.000e-03
+it=     19180		Loss/train:2.893e+00	Time/train:3.557e+00	LR:1.000e-03
+it=     19200		Loss/train:2.784e+00	Time/train:3.579e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     19220		Loss/train:2.145e+00	Time/train:3.570e+00	LR:1.000e-03
+it=     19240		Loss/train:2.497e+00	Time/train:3.559e+00	LR:1.000e-03
+it=     19260		Loss/train:2.408e+00	Time/train:3.579e+00	LR:1.000e-03
+it=     19280		Loss/train:2.095e+00	Time/train:3.675e+00	LR:1.000e-03
+it=     19300		Loss/train:2.951e+00	Time/train:3.579e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     19320		Loss/train:2.732e+00	Time/train:3.655e+00	LR:1.000e-03
+it=     19340		Loss/train:2.422e+00	Time/train:3.687e+00	LR:1.000e-03
+it=     19360		Loss/train:2.751e+00	Time/train:3.696e+00	LR:1.000e-03
+it=     19380		Loss/train:2.635e+00	Time/train:3.582e+00	LR:1.000e-03
+it=     19400		Loss/train:2.612e+00	Time/train:3.592e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     19420		Loss/train:2.973e+00	Time/train:3.605e+00	LR:1.000e-03
+it=     19440		Loss/train:2.411e+00	Time/train:3.600e+00	LR:1.000e-03
+it=     19460		Loss/train:2.520e+00	Time/train:3.597e+00	LR:1.000e-03
+it=     19480		Loss/train:2.849e+00	Time/train:3.548e+00	LR:1.000e-03
+it=     19500		Loss/train:2.519e+00	Time/train:3.609e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     19500		Loss/test:1.966e+00	Time/test:2.942e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     19520		Loss/train:4.150e+00	Time/train:3.602e+00	LR:1.000e-03
+it=     19540		Loss/train:2.868e+00	Time/train:3.654e+00	LR:1.000e-03
+it=     19560		Loss/train:2.874e+00	Time/train:3.578e+00	LR:1.000e-03
+it=     19580		Loss/train:3.115e+00	Time/train:3.555e+00	LR:1.000e-03
+it=     19600		Loss/train:2.425e+00	Time/train:3.602e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     19620		Loss/train:2.995e+00	Time/train:3.615e+00	LR:1.000e-03
+it=     19640		Loss/train:2.196e+00	Time/train:3.588e+00	LR:1.000e-03
+it=     19660		Loss/train:2.943e+00	Time/train:3.564e+00	LR:1.000e-03
+it=     19680		Loss/train:3.164e+00	Time/train:3.614e+00	LR:1.000e-03
+it=     19700		Loss/train:2.346e+00	Time/train:3.584e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     19720		Loss/train:2.435e+00	Time/train:3.688e+00	LR:1.000e-03
+it=     19740		Loss/train:2.445e+00	Time/train:3.722e+00	LR:1.000e-03
+it=     19760		Loss/train:2.446e+00	Time/train:3.589e+00	LR:1.000e-03
+it=     19780		Loss/train:3.067e+00	Time/train:3.587e+00	LR:1.000e-03
+it=     19800		Loss/train:2.389e+00	Time/train:3.591e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     19820		Loss/train:2.865e+00	Time/train:3.621e+00	LR:1.000e-03
+it=     19840		Loss/train:2.588e+00	Time/train:3.601e+00	LR:1.000e-03
+it=     19860		Loss/train:2.743e+00	Time/train:3.584e+00	LR:1.000e-03
+it=     19880		Loss/train:3.061e+00	Time/train:3.649e+00	LR:1.000e-03
+it=     19900		Loss/train:3.249e+00	Time/train:3.635e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     19920		Loss/train:3.004e+00	Time/train:3.636e+00	LR:1.000e-03
+it=     19940		Loss/train:2.863e+00	Time/train:3.665e+00	LR:1.000e-03
+it=     19960		Loss/train:2.394e+00	Time/train:3.623e+00	LR:1.000e-03
+it=     19980		Loss/train:2.467e+00	Time/train:3.601e+00	LR:1.000e-03
+it=     20000		Loss/train:2.389e+00	Time/train:3.612e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     20000		Loss/test:2.278e+00	Time/test:2.839e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     20020		Loss/train:2.326e+00	Time/train:3.606e+00	LR:1.000e-03
+it=     20040		Loss/train:2.482e+00	Time/train:3.566e+00	LR:1.000e-03
+it=     20060		Loss/train:2.233e+00	Time/train:3.572e+00	LR:1.000e-03
+it=     20080		Loss/train:2.352e+00	Time/train:3.589e+00	LR:1.000e-03
+it=     20100		Loss/train:1.897e+00	Time/train:3.590e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     20120		Loss/train:2.904e+00	Time/train:3.597e+00	LR:1.000e-03
+it=     20140		Loss/train:2.710e+00	Time/train:3.599e+00	LR:1.000e-03
+it=     20160		Loss/train:2.522e+00	Time/train:3.561e+00	LR:1.000e-03
+it=     20180		Loss/train:1.977e+00	Time/train:3.567e+00	LR:1.000e-03
+it=     20200		Loss/train:1.956e+00	Time/train:3.620e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     20220		Loss/train:2.550e+00	Time/train:3.593e+00	LR:1.000e-03
+it=     20240		Loss/train:2.363e+00	Time/train:3.668e+00	LR:1.000e-03
+it=     20260		Loss/train:2.556e+00	Time/train:3.653e+00	LR:1.000e-03
+it=     20280		Loss/train:2.308e+00	Time/train:3.640e+00	LR:1.000e-03
+it=     20300		Loss/train:2.459e+00	Time/train:3.620e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     20320		Loss/train:2.461e+00	Time/train:3.614e+00	LR:1.000e-03
+it=     20340		Loss/train:2.509e+00	Time/train:3.584e+00	LR:1.000e-03
+it=     20360		Loss/train:2.669e+00	Time/train:3.591e+00	LR:1.000e-03
+it=     20380		Loss/train:2.642e+00	Time/train:3.567e+00	LR:1.000e-03
+it=     20400		Loss/train:2.697e+00	Time/train:3.609e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     20420		Loss/train:2.287e+00	Time/train:3.623e+00	LR:1.000e-03
+it=     20440		Loss/train:2.798e+00	Time/train:3.633e+00	LR:1.000e-03
+it=     20460		Loss/train:2.707e+00	Time/train:3.585e+00	LR:1.000e-03
+it=     20480		Loss/train:2.715e+00	Time/train:3.590e+00	LR:1.000e-03
+it=     20500		Loss/train:2.734e+00	Time/train:3.624e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     20500		Loss/test:2.481e+00	Time/test:2.830e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     20520		Loss/train:2.297e+00	Time/train:3.715e+00	LR:1.000e-03
+it=     20540		Loss/train:2.416e+00	Time/train:3.696e+00	LR:1.000e-03
+it=     20560		Loss/train:2.558e+00	Time/train:3.667e+00	LR:1.000e-03
+it=     20580		Loss/train:2.619e+00	Time/train:3.634e+00	LR:1.000e-03
+it=     20600		Loss/train:2.294e+00	Time/train:3.584e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     20620		Loss/train:2.605e+00	Time/train:3.604e+00	LR:1.000e-03
+it=     20640		Loss/train:2.501e+00	Time/train:3.617e+00	LR:1.000e-03
+it=     20660		Loss/train:2.618e+00	Time/train:3.649e+00	LR:1.000e-03
+it=     20680		Loss/train:2.866e+00	Time/train:3.584e+00	LR:1.000e-03
+it=     20700		Loss/train:2.304e+00	Time/train:3.668e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     20720		Loss/train:2.360e+00	Time/train:3.614e+00	LR:1.000e-03
+it=     20740		Loss/train:2.176e+00	Time/train:3.579e+00	LR:1.000e-03
+it=     20760		Loss/train:2.768e+00	Time/train:3.613e+00	LR:1.000e-03
+it=     20780		Loss/train:2.870e+00	Time/train:3.629e+00	LR:1.000e-03
+it=     20800		Loss/train:1.967e+00	Time/train:3.605e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     20820		Loss/train:2.357e+00	Time/train:3.628e+00	LR:1.000e-03
+it=     20840		Loss/train:2.929e+00	Time/train:3.647e+00	LR:1.000e-03
+it=     20860		Loss/train:2.502e+00	Time/train:3.578e+00	LR:1.000e-03
+it=     20880		Loss/train:2.399e+00	Time/train:3.605e+00	LR:1.000e-03
+it=     20900		Loss/train:2.886e+00	Time/train:3.676e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     20920		Loss/train:2.883e+00	Time/train:3.580e+00	LR:1.000e-03
+it=     20940		Loss/train:3.055e+00	Time/train:3.625e+00	LR:1.000e-03
+it=     20960		Loss/train:2.374e+00	Time/train:3.573e+00	LR:1.000e-03
+it=     20980		Loss/train:2.607e+00	Time/train:3.561e+00	LR:1.000e-03
+it=     21000		Loss/train:2.410e+00	Time/train:3.551e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     21000		Loss/test:2.166e+00	Time/test:3.181e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     21020		Loss/train:2.839e+00	Time/train:3.559e+00	LR:1.000e-03
+it=     21040		Loss/train:2.707e+00	Time/train:3.601e+00	LR:1.000e-03
+it=     21060		Loss/train:2.449e+00	Time/train:3.582e+00	LR:1.000e-03
+it=     21080		Loss/train:2.496e+00	Time/train:3.644e+00	LR:1.000e-03
+it=     21100		Loss/train:2.697e+00	Time/train:3.618e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     21120		Loss/train:2.234e+00	Time/train:3.597e+00	LR:1.000e-03
+it=     21140		Loss/train:2.831e+00	Time/train:3.579e+00	LR:1.000e-03
+it=     21160		Loss/train:2.695e+00	Time/train:3.614e+00	LR:1.000e-03
+it=     21180		Loss/train:2.727e+00	Time/train:3.588e+00	LR:1.000e-03
+it=     21200		Loss/train:3.211e+00	Time/train:3.649e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     21220		Loss/train:2.530e+00	Time/train:3.583e+00	LR:1.000e-03
+it=     21240		Loss/train:2.610e+00	Time/train:3.624e+00	LR:1.000e-03
+it=     21260		Loss/train:3.079e+00	Time/train:3.575e+00	LR:1.000e-03
+it=     21280		Loss/train:2.487e+00	Time/train:3.600e+00	LR:1.000e-03
+it=     21300		Loss/train:2.070e+00	Time/train:3.585e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     21320		Loss/train:2.614e+00	Time/train:3.590e+00	LR:1.000e-03
+it=     21340		Loss/train:2.290e+00	Time/train:3.561e+00	LR:1.000e-03
+it=     21360		Loss/train:2.741e+00	Time/train:3.593e+00	LR:1.000e-03
+it=     21380		Loss/train:2.468e+00	Time/train:3.607e+00	LR:1.000e-03
+it=     21400		Loss/train:2.198e+00	Time/train:3.576e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     21420		Loss/train:2.804e+00	Time/train:3.683e+00	LR:1.000e-03
+it=     21440		Loss/train:2.602e+00	Time/train:3.685e+00	LR:1.000e-03
+it=     21460		Loss/train:2.932e+00	Time/train:3.601e+00	LR:1.000e-03
+it=     21480		Loss/train:2.022e+00	Time/train:3.587e+00	LR:1.000e-03
+it=     21500		Loss/train:2.432e+00	Time/train:3.550e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     21500		Loss/test:2.020e+00	Time/test:3.086e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     21520		Loss/train:2.992e+00	Time/train:3.674e+00	LR:1.000e-03
+it=     21540		Loss/train:2.803e+00	Time/train:3.629e+00	LR:1.000e-03
+it=     21560		Loss/train:2.491e+00	Time/train:3.591e+00	LR:1.000e-03
+it=     21580		Loss/train:2.752e+00	Time/train:3.630e+00	LR:1.000e-03
+it=     21600		Loss/train:2.876e+00	Time/train:3.598e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     21620		Loss/train:2.314e+00	Time/train:3.571e+00	LR:1.000e-03
+it=     21640		Loss/train:2.758e+00	Time/train:3.577e+00	LR:1.000e-03
+it=     21660		Loss/train:2.299e+00	Time/train:3.568e+00	LR:1.000e-03
+it=     21680		Loss/train:2.830e+00	Time/train:3.646e+00	LR:1.000e-03
+it=     21700		Loss/train:2.711e+00	Time/train:3.564e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     21720		Loss/train:3.007e+00	Time/train:3.585e+00	LR:1.000e-03
+it=     21740		Loss/train:2.463e+00	Time/train:3.621e+00	LR:1.000e-03
+it=     21760		Loss/train:3.233e+00	Time/train:3.685e+00	LR:1.000e-03
+it=     21780		Loss/train:2.969e+00	Time/train:3.792e+00	LR:1.000e-03
+it=     21800		Loss/train:2.685e+00	Time/train:3.592e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     21820		Loss/train:2.650e+00	Time/train:3.577e+00	LR:1.000e-03
+it=     21840		Loss/train:2.736e+00	Time/train:3.602e+00	LR:1.000e-03
+it=     21860		Loss/train:2.558e+00	Time/train:3.662e+00	LR:1.000e-03
+it=     21880		Loss/train:2.239e+00	Time/train:3.565e+00	LR:1.000e-03
+it=     21900		Loss/train:2.580e+00	Time/train:3.603e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     21920		Loss/train:2.433e+00	Time/train:3.673e+00	LR:1.000e-03
+it=     21940		Loss/train:3.036e+00	Time/train:3.677e+00	LR:1.000e-03
+it=     21960		Loss/train:2.584e+00	Time/train:3.620e+00	LR:1.000e-03
+it=     21980		Loss/train:2.842e+00	Time/train:3.618e+00	LR:1.000e-03
+it=     22000		Loss/train:3.152e+00	Time/train:3.626e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     22000		Loss/test:1.012e+00	Time/test:2.920e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     22020		Loss/train:2.737e+00	Time/train:3.636e+00	LR:1.000e-03
+it=     22040		Loss/train:2.839e+00	Time/train:3.575e+00	LR:1.000e-03
+it=     22060		Loss/train:2.305e+00	Time/train:3.558e+00	LR:1.000e-03
+it=     22080		Loss/train:2.818e+00	Time/train:3.608e+00	LR:1.000e-03
+it=     22100		Loss/train:2.410e+00	Time/train:3.648e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     22120		Loss/train:2.387e+00	Time/train:3.622e+00	LR:1.000e-03
+it=     22140		Loss/train:2.709e+00	Time/train:3.746e+00	LR:1.000e-03
+it=     22160		Loss/train:2.336e+00	Time/train:3.662e+00	LR:1.000e-03
+it=     22180		Loss/train:2.512e+00	Time/train:3.653e+00	LR:1.000e-03
+it=     22200		Loss/train:2.316e+00	Time/train:3.632e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     22220		Loss/train:2.493e+00	Time/train:3.644e+00	LR:1.000e-03
+it=     22240		Loss/train:2.821e+00	Time/train:3.624e+00	LR:1.000e-03
+it=     22260		Loss/train:2.994e+00	Time/train:3.623e+00	LR:1.000e-03
+it=     22280		Loss/train:2.359e+00	Time/train:3.600e+00	LR:1.000e-03
+it=     22300		Loss/train:3.178e+00	Time/train:3.569e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     22320		Loss/train:1.984e+00	Time/train:3.637e+00	LR:1.000e-03
+it=     22340		Loss/train:2.963e+00	Time/train:3.610e+00	LR:1.000e-03
+it=     22360		Loss/train:2.688e+00	Time/train:3.597e+00	LR:1.000e-03
+it=     22380		Loss/train:2.252e+00	Time/train:3.662e+00	LR:1.000e-03
+it=     22400		Loss/train:2.195e+00	Time/train:3.600e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     22420		Loss/train:2.931e+00	Time/train:3.584e+00	LR:1.000e-03
+it=     22440		Loss/train:2.558e+00	Time/train:3.565e+00	LR:1.000e-03
+it=     22460		Loss/train:3.157e+00	Time/train:3.583e+00	LR:1.000e-03
+it=     22480		Loss/train:2.458e+00	Time/train:3.630e+00	LR:1.000e-03
+it=     22500		Loss/train:2.523e+00	Time/train:3.647e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     22500		Loss/test:1.258e+00	Time/test:3.013e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     22520		Loss/train:2.507e+00	Time/train:3.615e+00	LR:1.000e-03
+it=     22540		Loss/train:2.644e+00	Time/train:3.736e+00	LR:1.000e-03
+it=     22560		Loss/train:2.666e+00	Time/train:3.713e+00	LR:1.000e-03
+it=     22580		Loss/train:2.675e+00	Time/train:3.619e+00	LR:1.000e-03
+it=     22600		Loss/train:2.646e+00	Time/train:3.601e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     22620		Loss/train:2.602e+00	Time/train:3.576e+00	LR:1.000e-03
+it=     22640		Loss/train:2.680e+00	Time/train:3.564e+00	LR:1.000e-03
+it=     22660		Loss/train:2.321e+00	Time/train:3.626e+00	LR:1.000e-03
+it=     22680		Loss/train:3.190e+00	Time/train:3.618e+00	LR:1.000e-03
+it=     22700		Loss/train:2.611e+00	Time/train:3.677e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     22720		Loss/train:2.349e+00	Time/train:3.612e+00	LR:1.000e-03
+it=     22740		Loss/train:3.325e+00	Time/train:3.602e+00	LR:1.000e-03
+it=     22760		Loss/train:2.526e+00	Time/train:3.619e+00	LR:1.000e-03
+it=     22780		Loss/train:2.255e+00	Time/train:3.563e+00	LR:1.000e-03
+it=     22800		Loss/train:2.771e+00	Time/train:3.651e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     22820		Loss/train:2.399e+00	Time/train:3.692e+00	LR:1.000e-03
+it=     22840		Loss/train:2.615e+00	Time/train:3.610e+00	LR:1.000e-03
+it=     22860		Loss/train:2.701e+00	Time/train:3.590e+00	LR:1.000e-03
+it=     22880		Loss/train:2.884e+00	Time/train:3.588e+00	LR:1.000e-03
+it=     22900		Loss/train:2.391e+00	Time/train:3.639e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     22920		Loss/train:2.259e+00	Time/train:3.565e+00	LR:1.000e-03
+it=     22940		Loss/train:2.518e+00	Time/train:3.577e+00	LR:1.000e-03
+it=     22960		Loss/train:2.709e+00	Time/train:3.555e+00	LR:1.000e-03
+it=     22980		Loss/train:2.516e+00	Time/train:3.549e+00	LR:1.000e-03
+it=     23000		Loss/train:2.338e+00	Time/train:3.575e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     23000		Loss/test:2.306e+00	Time/test:3.031e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     23020		Loss/train:3.189e+00	Time/train:3.699e+00	LR:1.000e-03
+it=     23040		Loss/train:2.807e+00	Time/train:3.658e+00	LR:1.000e-03
+it=     23060		Loss/train:2.378e+00	Time/train:3.582e+00	LR:1.000e-03
+it=     23080		Loss/train:2.565e+00	Time/train:3.619e+00	LR:1.000e-03
+it=     23100		Loss/train:2.226e+00	Time/train:3.605e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     23120		Loss/train:2.624e+00	Time/train:3.587e+00	LR:1.000e-03
+it=     23140		Loss/train:2.882e+00	Time/train:3.594e+00	LR:1.000e-03
+it=     23160		Loss/train:2.626e+00	Time/train:3.615e+00	LR:1.000e-03
+it=     23180		Loss/train:3.198e+00	Time/train:3.601e+00	LR:1.000e-03
+it=     23200		Loss/train:2.662e+00	Time/train:3.615e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     23220		Loss/train:3.003e+00	Time/train:3.595e+00	LR:1.000e-03
+it=     23240		Loss/train:2.494e+00	Time/train:3.600e+00	LR:1.000e-03
+it=     23260		Loss/train:2.472e+00	Time/train:3.637e+00	LR:1.000e-03
+it=     23280		Loss/train:2.600e+00	Time/train:3.596e+00	LR:1.000e-03
+it=     23300		Loss/train:2.492e+00	Time/train:3.684e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     23320		Loss/train:2.130e+00	Time/train:3.625e+00	LR:1.000e-03
+it=     23340		Loss/train:3.008e+00	Time/train:3.592e+00	LR:1.000e-03
+it=     23360		Loss/train:2.530e+00	Time/train:3.665e+00	LR:1.000e-03
+it=     23380		Loss/train:2.653e+00	Time/train:3.558e+00	LR:1.000e-03
+it=     23400		Loss/train:2.368e+00	Time/train:3.619e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     23420		Loss/train:2.042e+00	Time/train:3.587e+00	LR:1.000e-03
+it=     23440		Loss/train:2.734e+00	Time/train:3.642e+00	LR:1.000e-03
+it=     23460		Loss/train:2.184e+00	Time/train:3.587e+00	LR:1.000e-03
+it=     23480		Loss/train:2.808e+00	Time/train:3.752e+00	LR:1.000e-03
+it=     23500		Loss/train:2.633e+00	Time/train:3.663e+00	LR:1.000e-03
+SAVE THE MODEL
+TEST THE MODEL
+it=     23500		Loss/test:1.042e+00	Time/test:2.936e+00
+/home/ubuntu/.local/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+it=     23520		Loss/train:2.263e+00	Time/train:3.613e+00	LR:1.000e-03
+it=     23540		Loss/train:3.394e+00	Time/train:3.610e+00	LR:1.000e-03
+it=     23560		Loss/train:2.369e+00	Time/train:3.610e+00	LR:1.000e-03
+it=     23580		Loss/train:2.647e+00	Time/train:3.590e+00	LR:1.000e-03
+it=     23600		Loss/train:2.704e+00	Time/train:3.586e+00	LR:1.000e-03
+SAVE THE MODEL
+it=     23620		Loss/train:2.394e+00	Time/train:3.617e+00	LR:1.000e-03
+it=     23640		Loss/train:2.794e+00	Time/train:3.546e+00	LR:1.000e-03
+it=     23660		Loss/train:3.173e+00	Time/train:3.575e+00	LR:1.000e-03
+it=     23680		Loss/train:3.347e+00	Time/train:3.663e+00	LR:1.000e-03
+it=     23700		Loss/train:2.592e+00	Time/train:3.618e+00	LR:1.000e-03
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/torch/serialization.py", line 619, in save
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol, _disable_byteorder_record)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/torch/serialization.py", line 853, in _save
+    zip_file.write_record(name, storage.data_ptr(), num_bytes)
+RuntimeError: [enforce fail at inline_container.cc:588] . PytorchStreamWriter failed writing file data/1341: file write failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/ardino/mjjeon/nsynth-pytorch/train.py", line 34, in <module>
+    main(make_config('train').parse_args())
+  File "/home/ubuntu/ardino/mjjeon/nsynth-pyt

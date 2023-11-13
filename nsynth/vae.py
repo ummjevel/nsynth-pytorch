@@ -36,7 +36,8 @@ class WavenetVAE(AutoEncoder):
         self.bottleneck_dims = bottleneck_dims
         self.encoder = TemporalEncoder(bottleneck_dims=2 * bottleneck_dims,
                                        channels=channels, width=encoder_width,
-                                       n_layers=n_layers, n_blocks=n_blocks)
+                                       n_layers=n_layers, n_blocks=n_blocks
+                                       ,hop_length=decoder_width)
         self.decoder = WaveNetDecoder(bottleneck_dims=bottleneck_dims,
                                       channels=channels, width=decoder_width,
                                       n_layers=n_layers, n_blocks=n_blocks,
